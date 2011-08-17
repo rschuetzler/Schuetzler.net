@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Schuetzler.net</title>
+  <link href="http://www.schuetzler.net/atom.xml" rel="self"/>
+  <link href="http://www.schuetzler.net"/>
+  <updated>2011-08-16T22:38:27-07:00</updated>
+  <id>http://www.schuetzler.net</id>
+  <author>
+    <name>Ryan Schuetzler</name>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title>How to add pictures to Blogger more easily</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2011-08-14T00:00:00-07:00</updated>
+    <id>http://codeography.com/2011/08/14/how-to-add-pictures-to-blogger-more-easily-windows-live-writer</id>
+    <content type="html">&lt;p&gt;If blog regularly on Blogger/Blogspot/whatever it's called, you have probably run into the frustration that is adding pictures to a post. While it is possible, it is certainly not an easy task to get pictures where you want them, with the text around them like you like. For all you Windows users out there, there is an easier way. It's called &lt;a href=&quot;http://explore.live.com/windows-live-writer&quot;&gt;Windows Live Writer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Windows Live Writer is a free tool provided by Microsoft to make blogging simple. All you have to do is download this program to your computer, add your blogger account, and away you go. For those of you using Windows XP, there's a version of &lt;a href=&quot;http://explore.live.com/windows-live-writer-xp&quot;&gt;Windows Live Writer&lt;/a&gt; for you, too.&lt;/p&gt;
+
+&lt;p&gt;After you've added your Blogger account, you can easily create posts, edit them, save drafts, and add pictures just like you would if you were writing in Word. Just hit &quot;Publish&quot; and all your pictures will be uploaded and your post will be public. It really is the simplest way I know of to add pictures to a blog without all the formatting and moving around trouble that the typical online editor gives you.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Very Basic SEO</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2011-05-02T00:00:00-07:00</updated>
+    <id>http://codeography.com/2011/05/02/very-basic-seo</id>
+    <content type="html">As part of a web computing class, a couple other students and I created a website called &lt;a href=&quot;http://www.videorentalexperts.com&quot;&gt;MyFlixList&lt;/a&gt;. As extra credit for the course, we were told to apply the things we learned about PageRank and SEO to become the top search result on Google for the term &lt;a href=&quot;http://www.videorentalexperts.com&quot;&gt;mis510proj&lt;/a&gt;. Here is a basic summary of the steps we took to become the number 1 result (which we are as of press time).
+&lt;ol&gt;
+	&lt;li&gt;Make the title of the page mis510proj. That was one of the requirements of the project, but it's a good idea.&lt;/li&gt;
+	&lt;li&gt;Have the keyword in the domain. We were not allowed to spend money on the project, so that was out. However, we could have used mis510proj.videorentalexperts.com. We decided not to since most other groups didn't even have a domain name.&lt;/li&gt;
+	&lt;li&gt;Include mis510proj in a keywords metatag. Our meta tag (inside the &amp;lt;head&amp;gt; tags at the top of the page) looks something like this: &amp;lt;meta name=&quot;keywords&quot; content=&quot;mis510proj, movies, netflix&quot; /&amp;gt;&lt;/li&gt;
+	&lt;li&gt;Have an image titled mis510proj on the site. We used the main logo&lt;/li&gt;
+	&lt;li&gt;Link sharing. I cannot overstate the importance of this step. We contacted other groups and offered to link to them if they would link to us. The more links we had to our site using mis510proj as the anchor text, the better off we were&lt;/li&gt;
+	&lt;li&gt;Use the keyword in natural language. We have a paragraph at the bottom of the homepage that uses the keyword mis510proj a bunch of times. Be careful not to overdue this, as too many mentions of the keyword will actually hurt more than it helps. We also have the keyword inside an &amp;lt;h1&amp;gt; tag, which shows that it is an important part of the site&lt;/li&gt;
+&lt;/ol&gt;
+That's all the basic tips I have for SEO. There are a ton of other things that are important, but this is a decent primer for how to get started getting ranked for a keyword on Google.
+</content>
+  </entry>
+  
+  <entry>
+    <title>mis510proj</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2011-04-20T00:00:00-07:00</updated>
+    <id>http://codeography.com/2011/04/20/mis510proj</id>
+    <content type="html">Part of a project for my web mining class at UA is to create a website using 5 different APIs to accomplish some sort of useful task. A group of us have created a site to queue up movies you want to see, and be able to see those movies on Netflix, get reviews from Rotten Tomatoes, and purchase the movie from Amazon. It's called &lt;a title=&quot;mis510proj&quot; href=&quot;http://www.videorentalexperts.com&quot;&gt;MyFlixList&lt;/a&gt;. Functionality is coming along nicely, so feel free to check it out here: &lt;a title=&quot;mis510proj&quot; href=&quot;http://www.videorentalexperts.com&quot;&gt;mis510proj&lt;/a&gt;.
+</content>
+  </entry>
+  
+  <entry>
+    <title>Mendeley</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2011-03-23T00:00:00-07:00</updated>
+    <id>http://codeography.com/2011/03/23/mendeley</id>
+    <content type="html">In my quest to find the perfect tool to manage my ever-expanding library of PDFs, I discovered a tool called &lt;a href=&quot;http://www.mendeley.com/&quot; target=&quot;_blank&quot;&gt;Mendeley&lt;/a&gt;. Here's a quick rundown of what Mendeley does for me:
+&lt;div&gt;
+&lt;ul&gt;
+	&lt;li&gt;Manages references - this is similar to EndNote. You can put references into folders based on topic, class, project, paper, or whatever you want.&lt;/li&gt;
+	&lt;li&gt;Manages PDFs - I have it set up to move all my PDFs to one folder and rename them to Author - Year - Title. I then use Dropbox to sync that folder to all my computers so I can always have access to my PDFs when I want them. &lt;strong&gt;Edit&lt;/strong&gt;: Mendeley provides a sync service, but the free version is limited to 500 MB of individual space and 500 MB free space. Since I have the files in a Dropbox folder anyway, I just use that.&lt;/li&gt;
+	&lt;li&gt;Cite while you write - The functionality for this isn't quite as full-fledged as EndNote, but you can insert citations and a bibliography that is automatically updated based on the citations. More on this below.&lt;/li&gt;
+	&lt;li&gt;Lit review - this is one of the killer features. Most references have an entry in the &quot;Mendeley online Catalog.&quot; If you go to the online catalog, you can see links to similar articles.&lt;/li&gt;
+	&lt;li&gt;Collaboration - you can create collaborative groups of references, and everyone can have access to the same library of references and PDFs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+
+I'm new to it, so I'm sure I will run into some limitations, but right now it seems like a pretty awesome tool. Also, you can import to/export from EndNote if you have to continue using that to work with other EndNote users.
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+One of the biggest limitations I have run into is the Cite-while-you-write functionality. Mendeley does such an awesome job keeping references straight, it's sad how poorly it performs at in-text citations. It has a Word plugin to allow you to insert citations. It has a fairly large list of formats, and if Zotero has a format for it, you can send it to Mendeley and they will send you a properly formatted version for use in Mendeley. Creating custom styles is currently a huge burden since it requires editing a fairly complicated XML file. Additionally, options for in-text citations are very limited. Currently you can only put in a citation in one format. If I have my references formatted as (Author, 2011), and I want to have another reference to the same paper that just includes the year, that is not possible. This is a huge limitation as far as using Mendeley to replace EndNote. If they could fix this, I think I could finally kick ugly old EndNote off my computer.
+
+&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to Boil and Peel an Egg</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-10-30T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/10/30/how-to-boil-and-peel-an-egg</id>
+    <content type="html">&lt;a href=&quot;http://www.schuetzler.net/blog/wp-content/uploads/egg.jpg&quot;&gt;&lt;img class=&quot;size-full wp-image-192 alignright&quot; title=&quot;Egg&quot; src=&quot;http://www.schuetzler.net/blog/wp-content/uploads/egg.jpg&quot; alt=&quot;Egg&quot; width=&quot;193&quot; height=&quot;262&quot; /&gt;&lt;/a&gt;I love hard boiled eggs. Unfortunately, I don't love peeling them because I usually end up with as much egg attached to the shell as not. I've scoured the globe looking for ways to avoid this frustration, and today, for the first time, I have cooked and peeled hard boiled eggs without wanting to break something. Here is my secret:
+&lt;ol&gt;
+	&lt;li&gt;For 12 eggs, put them all in a big pot with cold water to cover them about 2 inches&lt;/li&gt;
+	&lt;li&gt;Add about 1/2 teaspoon of baking soda to water&lt;/li&gt;
+	&lt;li&gt;Place on burner on high&lt;/li&gt;
+	&lt;li&gt;When the water begins to boil, set a timer for 3 minutes&lt;/li&gt;
+	&lt;li&gt;After 3 minutes, remove from heat and cover. Leave for 8 minutes&lt;/li&gt;
+	&lt;li&gt;After 8 minutes, run cool water over the eggs for a little bit, then soak them in ice water for about 30-45 minutes&lt;/li&gt;
+	&lt;li&gt;Place eggs in refrigerator for at least 1-2 hours&lt;/li&gt;
+	&lt;li&gt;When ready to peel, tap an egg on the counter (all the way around) to break up the shell&lt;/li&gt;
+	&lt;li&gt;Lightly roll the egg on the counter to break the shell even more. If you roll to hard, the shell might start to come off, bringing some egg white with it&lt;/li&gt;
+	&lt;li&gt;Peel egg under running water, starting at the fat end.&lt;/li&gt;
+	&lt;li&gt;Take your time, but it should go fairly quickly, and be pretty easy to do.&lt;/li&gt;
+&lt;/ol&gt;
+Like I said, this is a compilation of a bunch of different tips I've found. I don't know if it's possible to remove some of them and still have an easy time. I just know that for the first time in a long time I didn't want to kill something after peeling a dozen hard boiled eggs.
+</content>
+  </entry>
+  
+  <entry>
+    <title>Best Google Chrome Extensions</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-10-22T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/10/22/best-google-chrome-extensions</id>
+    <content type="html">I've been using Google Chrome as my main browser pretty much since it came out. I love the minimal interface, bookmark sync, searching from the Omnibox, and the start page. Somewhat recently Chrome decided to jump on the extensions bandwagon, and I think it's great. Here is a quick list of the Chrome Extensions I use:
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/hdokiejnpimakedhajhdlcegeplioahd&quot;&gt;LastPass&lt;/a&gt; - This is my choice of password manager. It doesn't do everything perfectly, but I love that it's always synced across all my computers and browsers.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&quot;&gt;ProxySwitchy&lt;/a&gt; - I've talked about this one in a couple other posts, but this is the quickest way to switch between using a proxy and using a direct connection to the Internet. If you want a tutorial for how I use it, click &lt;a href=&quot;http://www.schuetzler.net/blog/115/use-ssh-to-proxy-mac&quot;&gt;here for Mac&lt;/a&gt; or &lt;a href=&quot;http://www.schuetzler.net/blog/113/how-to-use-putty-ssh-to-proxy&quot;&gt;here for PC&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/idfmgklhndkcggamadboiaepmohpjhjj&quot;&gt;Concentrate&lt;/a&gt; - I use this one when I need to get down to work and avoid the temptation of the Internet. It allows you to put in any number of URLs, then set a timer for how long you want to be blocked off from them. It's not perfect, but it's the best I could find for my purposes. I like it because I can set it to &quot;Concentrate&quot; mode when I want to, and for the length of time I want. Others like Chrome Nanny have similar behaviors, but operate on a set schedule, which is not optimal for me. As a side note, if you try to block Google Reader (http://www.google.com/reader), it will also block Google.com. Rumor has it they're working on getting more sophisticated blocking, but for now it seems to work just by the domain.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/kcnhkahnjcbndmmehfkdnkjomaanaooo&quot;&gt;Google Voice&lt;/a&gt; - I don't use Google Voice on my phone, but I use it for voicemail and texting. This extension allows me to text from within the browser plugin window. It also grabs your Google contacts, so texting or calling any of those people is a piece of cake.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/gighmmpiobklfepjocnamgkkbiglidom&quot;&gt;AdBlock&lt;/a&gt; - I didn't get this one to block ads. I use it primarily to hide the &quot;Explore&quot; section from Google Reader. That was an endless time wasting pit of distraction, so I used Adblock and &lt;a href=&quot;http://www.google.com/support/forum/p/reader/thread?tid=20b5ee428e8d5249&amp;amp;hl=en&quot;&gt;this quick tutorial&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/extensions/detail/nlbjncdgjeocebhnmkbbbdekmmmcbfjd&quot;&gt;RSS Subscription Extension&lt;/a&gt; - This one I leave on all the time, but rarely use. I hated that there was no easy way to subscribe to a site's RSS feed in Chrome. With this extension, an RSS icon appears in the address bar when a feed is found for a site. Just click that icon to subscribe (I use Google Reader, so I don't know about how it works with other readers)&lt;/li&gt;
+&lt;/ul&gt;
+Anyway, that's what I use. What other extensions have you found helpful?
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to install Windows 7 from a Flash Drive</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-10-02T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/10/02/windows-7-flash-drive</id>
+    <content type="html">I've got a netbook and a DVD image of Windows 7. I don't have a disc drive for the netbook, so I have to figure out a way to get Windows 7 onto a USB drive to install from. Thanks to &lt;a href=&quot;http://www.thinkcomputers.org/install-windows-7-from-a-usb-flash-drive/&quot;&gt;this site&lt;/a&gt;, I was able to get it.
+&lt;ol&gt;
+	&lt;li&gt;You'll need a flash drive that's at least 4 GB. You don't need one any bigger than that, but if that's all you have, it will work.&lt;/li&gt;
+	&lt;li&gt;If you have a CD, insert it into the computer. If not, you'll need to mount the ISO image. If you don't know how to do this, you can look it up. I use VirtualCloneDrive, but Daemon tools works too.&lt;/li&gt;
+	&lt;li&gt;Run the command prompt as administrator (All Programs -&amp;gt; Accessories -&amp;gt; Right-click on command prompt and select &quot;Run as Administrator&quot;)&lt;/li&gt;
+	&lt;li&gt;Type &lt;code&gt;diskpart&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Type &lt;code&gt;list dis&lt;/code&gt;k&lt;/li&gt;
+	&lt;li&gt;Find your drive and remember its number (our example will use 3&lt;/li&gt;
+	&lt;li&gt;Type &lt;code&gt;select disk 3&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Type the following commands:&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;clean&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;create partition primary&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;select partition 1&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;active&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;format fs=fat32&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;assign&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;exit&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Now type the following command, replacing D with your ISO or CD drive letter, and E with your flash drive letter:&lt;/li&gt;
+	&lt;li&gt;&lt;code&gt;xcopy d:*.* /s/e/f e:&lt;/code&gt;&lt;/li&gt;
+	&lt;li&gt;Once that finishes, you should be good to go. Just shut down the computer, and hit the key for &quot;boot options&quot; or something like that during your BIOS startup screen. Once you do that you can select the USB drive and the installation should begin normally.&lt;/li&gt;
+&lt;/ol&gt;
+That way worked for me. And as a side note, I'm running Windows 7 Professional on a netbook with an Intel Atom N270 processor and 1 GB of RAM and I have no complaints. It starts up fairly quickly, the battery life is almost the same as with XP, and I have an OS that's less than 8 years old. Obviously I can't be running a whole bunch of stuff at once with that kind of RAM, but on a netbook I don't have much reason to.
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to do tech support for family</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-09-26T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/09/26/tech-support</id>
+    <content type="html">As everyone who does computer-y things knows, you will be called upon to do tech support for people around you. The most difficult of these calls is when you are doing tech support for a relative who lives far away. The best way I have found to do this technical support is using a tool included in Windows called Windows Remote Assistance.
+
+Windows Remote Assistance is basically a slightly modified version of Remote Desktop. With Remote Desktop you can log into a remote computer and do what you want. With Remote Assistance, you are invited by the user of a computer to share a session. The benefit of this is that you can see exactly what the user sees on his/her screen. You can also demonstrate how to do things by sharing control of the mouse.
+
+Windows 7 has the best version of Remote Assistance (at least it beats XP. I've never used it on Vista) because it has a feature called EasyConnect. Below I have the steps for using Remote Assistance with EasyConnect and Windows 7 on both the helper and the helpee's computers.
+
+For the Helpee:
+&lt;ol&gt;
+	&lt;li&gt;Hit the Start/Windows icon and type Remote Assistance in the &quot;Search Programs&quot; box&lt;/li&gt;
+	&lt;li&gt;Click Windows Remote Assistance&lt;/li&gt;
+	&lt;li&gt;Click &quot;Invite someone you trust to help you&quot;&lt;/li&gt;
+	&lt;li&gt;If you see another windows saying &quot;Who do you want to get help from,&quot; click &quot;Invite someone to help you.&quot;&lt;/li&gt;
+	&lt;li&gt;Click &quot;Use EasyConnect&quot; and give the helper the EasyConnect Password&lt;/li&gt;
+&lt;/ol&gt;
+Now the Helper steps in:
+&lt;ol&gt;
+	&lt;li&gt;One Windows Remote Assistance the same way as above&lt;/li&gt;
+	&lt;li&gt;Click &quot;Help someone who has invited you&quot;&lt;/li&gt;
+	&lt;li&gt;Click either the username of the person you are helping, or click &quot;Help Someone new&quot; if you see that screen. If not, just click &quot;Use EasyConnect&quot;&lt;/li&gt;
+	&lt;li&gt;Enter the password given to you in step 5 of the Helpee instructions above&lt;/li&gt;
+	&lt;li&gt;The Helpee will see a prompt asking if they want to share control of their computer with such-and-such. Instruct them to click yes on that prompt.&lt;/li&gt;
+&lt;/ol&gt;
+You now have a shared view of the computer. I don't remember the name of the button, but in the upper-left corner of the Helper's screen you should see a button that says something like &quot;Request control.&quot; If you click that button, the Helpee will receive a prompt asking if they want to share control of the screen. If he/she clicks &quot;Yes,&quot; you (the Helper) will be able to control the computer. This is incredibly useful for searching for stuff or demonstrating how to do something.
+
+I know there are other tools as well that provide similar functionality. &lt;a href=&quot;https://secure.logmein.com/&quot;&gt;Logmein &lt;/a&gt;and &lt;a href=&quot;http://www.teamviewer.com/index.aspx&quot;&gt;TeamViewer &lt;/a&gt;are the two most common that I hear. However, both of these (I think) are browser-based, which to me seems like a big disadvantage. They don't provide the same experience as Remote Assistance in my experience. Plus, Windows Remote Assistance comes pre-packaged with Windows, so it's already there and ready to use.
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to waste time on the Internet</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-07-17T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/07/17/how-to-waste-time-on-the-internet</id>
+    <content type="html">This is easy. I sometimes find myself just clicking around, bored, looking, reading, and generally wasting my time on the Internet. Here is a list of some of my favorite places to go to do it:
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://slashdot.org&quot;&gt;slashdot&lt;/a&gt; - News for nerds. It's really easy&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://lifehacker.com&quot;&gt;lifehacker.com&lt;/a&gt; - Tips for just about everything.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://google.com/reader&quot;&gt;Google Reader&lt;/a&gt; &quot;Explore&quot; - finds feeds related to the things you read. This is a &lt;em&gt;huge&lt;/em&gt; time waster, because it never ends. The recommendations get less relevant, but Google can always find something to read.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://slickdeals.net&quot;&gt;slickdeals.net&lt;/a&gt; - A huge collection of good deals on anything. I mostly look for electronics deals, then wish I had money to take advantage of them.&lt;/li&gt;
+&lt;/ul&gt;
+Another few ideas that I haven't done for a while:
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.stumbleupon.com/&quot;&gt;StumbleUpon&lt;/a&gt; - a social bookmarking application. You bookmark sites you like, tell them what categories you are interested in, and StumbleUpon will provide you with an endless list of websites.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://facebook.com&quot;&gt;Facebook&lt;/a&gt; (I still use it, but I don't check it nearly as often as I used to)&lt;/li&gt;
+&lt;/ul&gt;
+What other sites have you used to pass those bored moments at school/work/home/anywhere?
+</content>
+  </entry>
+  
+  <entry>
+    <title>Moving tips?</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-07-16T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/07/16/moving-tips</id>
+    <content type="html">Hey anyone and everyone -
+
+I'm moving in the next week or so and I was wondering if anyone can give me some tips for making the process easier. We're using a freight service to get our stuff down there. Any tips for packing? Getting moved in? Meeting neighbors?
+
+Any ideas related to moving are welcome.
+</content>
+  </entry>
+  
+  <entry>
+    <title>BYU's library spoofs the Old Spice Guy</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-07-16T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/07/16/byus-library-spoofs-the-old-spice-guy</id>
+    <content type="html">So, in case you've been living in a cave for the past several weeks, the Old Spice guy (Isaiah Mustafa) has become incredibly popular for his fast-paced commercials. BYU's Lee Library recently put together a spoof of the commercials advertising for the library. &lt;!--more--&gt;Here it is in all its glory:
+
+&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; width=&quot;640&quot; height=&quot;385&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;src&quot; value=&quot;http://www.youtube.com/v/2ArIj236UHs&amp;amp;hl=en_US&amp;amp;fs=1&quot; /&gt;&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;&lt;embed type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;385&quot; src=&quot;http://www.youtube.com/v/2ArIj236UHs&amp;amp;hl=en_US&amp;amp;fs=1&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
+This video is now &lt;a href=&quot;http://www.youtube.com/watch?v=owGykVbfgUE&quot;&gt;diamonds&lt;/a&gt;!
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to use PuTTY & SSH to proxy</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-07-08T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/07/08/how-to-use-putty-ssh-to-proxy</id>
+    <content type="html">Worried that network monitoring at school or work is going to reveal passwords? How much do you trust the wireless Internet at the airport? If the network is unencrypted (and possibly even if it is), anyone could be watching your Internet browsing and maybe pick up a password or two. The following instructions will help you set up PuTTY and SSH on a Windows computer to secure traffic out of wherever you are.&lt;!--more--&gt;
+
+First, you'll have to have a computer you can SSH into. I'm going to assume you already have that going for you. Next, you need to download &lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot;&gt;PuTTY&lt;/a&gt;. PuTTY is a free Telnet/SSH client for Windows. Once you have PuTTY downloaded, start it up. Then:
+&lt;ol&gt;
+	&lt;li&gt;Enter the Host name and select SSH as the connection type. The port should be 22 unless you've done something special to your SSH server&lt;/li&gt;
+	&lt;li&gt;Go to Connection &amp;gt;&amp;gt; SSH &amp;gt;&amp;gt; Tunnels&lt;/li&gt;
+	&lt;li&gt;Enter &quot;8080&quot; as the Source Port. You can put whatever you want here. We'll use 8080 as our example.&lt;/li&gt;
+	&lt;li&gt;Under Destination, select Dynamic, then click &quot;Add&quot; To add this forwarded port.&lt;/li&gt;
+	&lt;li&gt;Go back to the Session section, enter a name for this connection and click &quot;Save.&quot; You don't have to do this, but it makes it much easier later on down the road.&lt;/li&gt;
+	&lt;li&gt;Click &quot;Open&quot; and enter your username and password.&lt;/li&gt;
+&lt;/ol&gt;
+Now you've got the SSH connection ready to go. All that's left is to tell your browser to direct traffic through the proxy.
+
+&lt;strong&gt;If you are using Firefox:&lt;/strong&gt;
+&lt;ol&gt;
+	&lt;li&gt;Open Tools &amp;gt;&amp;gt; Options.&lt;/li&gt;
+	&lt;li&gt;Click &quot;Advanced&quot;&lt;/li&gt;
+	&lt;li&gt;Click &quot;Network&quot;&lt;/li&gt;
+	&lt;li&gt;Under &quot;Connection&quot; click &quot;Settings&quot;&lt;/li&gt;
+	&lt;li&gt;Select Manual proxy configuration&lt;/li&gt;
+	&lt;li&gt;Fill in SOCKS Host as 127.0.0.1 with Port set to 8080 (or whatever port you chose above).&lt;/li&gt;
+	&lt;li&gt;Click OK and close the preferences dialog.&lt;/li&gt;
+&lt;/ol&gt;
+You should now be good to go. All of your web browsing (in Firefox) will pass through the secure tunnel between you and the SSH server.
+
+&lt;strong&gt;If you are using Google Chrome:&lt;/strong&gt;
+
+Google Chrome is an excellent browser, but unfortunately you cannot configure a proxy server in the same way as Firefox. The settings do not exist. Fortunately developer Mhd Hejazi has created Proxy Switchy!, a Chrome extension that allows easy access to changing proxy settings.
+&lt;ol&gt;
+	&lt;li&gt;Download and install &lt;a href=&quot;https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&quot;&gt;Proxy Switchy!&lt;/a&gt; from the Chrome extensions website.&lt;/li&gt;
+	&lt;li&gt;As soon as Proxy Switchy installs, it will pop up with a window where you can fill in your proxy server information&lt;/li&gt;
+	&lt;li&gt;Name the profile whatever you like. We'll call it &quot;Home Proxy&quot; just for fun.&lt;/li&gt;
+	&lt;li&gt;Leave all spaces blank except SOCKS Host and Port. Enter 127.0.0.1 for the host and 8080 (or whatever you chose above) for the port.&lt;/li&gt;
+	&lt;li&gt;I select SOCKS v5 in the radio button below. If that doesn't work for you, try SOCKS v4.&lt;/li&gt;
+	&lt;li&gt;Click Save&lt;/li&gt;
+	&lt;li&gt;Now all you have to do to enable the proxy is click the little globe icon next to the address bar and select &quot;Home Proxy.&quot; To return to the unproxied Internet simply select Direct Connection.&lt;/li&gt;
+	&lt;li&gt;To quickly toggle back and forth between proxy enabled and disabled, you can change the &quot;General&quot; settings to enable quick switch and select Home Proxy for Profile 2 on the binary switch. Save your settings, and then just clicking the globe icon will toggle between your two connections.&lt;/li&gt;
+&lt;/ol&gt;
+One thing you'll need to know about the proxy: It does not provide a completely encrypted Internet connection. It will only provide an encrypted connection between you and your SSH proxy server. If someone is monitoring the traffic between your SSH server and the sites you visit, this will not help. Using SSH to proxy essentially provides you the same security of browsing the Internet from your SSH server, whatever that means for you.
+</content>
+  </entry>
+  
+  <entry>
+    <title>Messed up Water Bottle</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-07-01T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/07/01/messed-up-water-bottle</id>
+    <content type="html">This is apparently what happens to a perfectly normal water bottle when you leave it in the back window of your car at 90 degrees:
+
+&lt;img class=&quot;alignnone&quot; title=&quot;Messed up Water Bottle&quot; src=&quot;http://lh3.ggpht.com/_1K1I6RHdbSw/TC0uU7GefpI/AAAAAAAAAHo/a3Iai0yhbtE/s640/DSCN2400.JPG&quot; alt=&quot;&quot; width=&quot;512&quot; height=&quot;384&quot; /&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to set up OpenID on your domain</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-06-25T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/06/25/how-to-set-up-openid-on-your-domain</id>
+    <content type="html">&lt;p style=&quot;text-align: left;&quot;&gt;I admit, I mostly stole this post from &lt;a href=&quot;http://smarterware.org/6286/how-to-set-up-openid-on-your-own-domain&quot;&gt;here&lt;/a&gt;, but I feel it is valuable enough that I need to repost it.&lt;/p&gt;
+Adding OpenID to your domain is seriously a piece of cake. &lt;!--more--&gt;For example, I own www.schuetzler.net (this site). By adding the following lines to the &amp;lt;head&amp;gt; of your homepage, you can use Google's OpenID, connected to your Google Account, to login to any website that allows OpenID. [Note: the second href= is your Google Profile URL. If you haven't set up a Google Profile, you can do so &lt;a href=&quot;http://www.google.com/profiles&quot;&gt;here&lt;/a&gt;.
+&lt;pre style=&quot;border: 1px solid black; width: 500px; overflow-x: auto;&quot;&gt;&amp;lt;link rel=&quot;openid2.provider&quot; href=&quot;https://www.google.com/accounts/o8/ud?source=profiles&quot; /&amp;gt;
+&amp;lt;link rel=&quot;openid2.local_id&quot; href=&quot;http://www.google.com/profiles/101917908304099087510&quot; /&amp;gt;&lt;/pre&gt;
+That's seriously all you need to do. Once that's set up, you can log into any site that accepts OpenID (including this one) by entering your domain for the OpenID.
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to use SSH to proxy on a Mac</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-06-16T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/06/16/use-ssh-to-proxy-mac</id>
+    <content type="html">Worried that network monitoring at school or work is going to reveal passwords? How much to you trust the wireless Internet at the airport. If the network is unencrypted (and possibly even if it is), anyone could be watching your Internet browsing and maybe pick up a password or two. The following instructions will help you set use SSH to provide some more security.&lt;!--more--&gt;
+&lt;ol&gt;
+	&lt;li&gt;Open up Terminal&lt;/li&gt;
+	&lt;li&gt;Type &quot;ssh -D [port number] example.com&quot; WHERE [port number] is replaced with a port and example.com is replaced with the domain of your SSH server. For example, if my ssh server were located at ssh.example.com, I would type: ssh -D 8081 ssh.example.com&lt;/li&gt;
+	&lt;li&gt;Log in to the SSH server. Enter whatever username and password are required.&lt;/li&gt;
+&lt;/ol&gt;
+Now that your SSH connection is set up, I will give instructions for how to set this up in Firefox 3.6 and Google Chrome.
+
+&lt;strong&gt;If you are using Firefox:&lt;/strong&gt;
+&lt;ol&gt;
+	&lt;li&gt;Open the Preferences menu (on a Mac, this is under the Firefox menu item).&lt;/li&gt;
+	&lt;li&gt;Click &quot;Advanced&quot;&lt;/li&gt;
+	&lt;li&gt;Click &quot;Network&quot;&lt;/li&gt;
+	&lt;li&gt;Under &quot;Connection&quot; click &quot;Settings&quot;&lt;/li&gt;
+	&lt;li&gt;Select Manual proxy configuration&lt;/li&gt;
+	&lt;li&gt;Fill in SOCKS Host as 127.0.0.1 with Port set to 8081 (or whatever port you chose above).&lt;/li&gt;
+	&lt;li&gt;Click OK and close the preferences dialog.&lt;/li&gt;
+&lt;/ol&gt;
+You should now be good to go. All of your web browsing (in Firefox) will pass through the secure tunnel between you and the SSH server.
+
+&lt;strong&gt;If you are using Google Chrome:&lt;/strong&gt;
+
+Google Chrome is an excellent browser, but unfortunately you cannot configure a proxy server in the same way as Firefox. The settings do not exist. Fortunately developer Mhd Hejazi has created Proxy Switchy!, a Chrome extension that allows easy access to changing proxy settings.
+&lt;ol&gt;
+	&lt;li&gt;Download and install &lt;a href=&quot;https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj&quot;&gt;Proxy Switchy!&lt;/a&gt; from the Chrome extensions website.&lt;/li&gt;
+	&lt;li&gt;As soon as Proxy Switchy installs, it will pop up with a window where you can fill in your proxy server information&lt;/li&gt;
+	&lt;li&gt;Name the profile whatever you like. We'll call it &quot;Home Proxy&quot; just for fun.&lt;/li&gt;
+	&lt;li&gt;Leave all spaces blank except SOCKS Host and Port. Enter 127.0.0.1 for the host and 8081 (or whatever you chose above) for the port.&lt;/li&gt;
+	&lt;li&gt;I select SOCKS v5 in the radio button below. If that doesn't work for you, try SOCKS v4.&lt;/li&gt;
+	&lt;li&gt;Click Save&lt;/li&gt;
+	&lt;li&gt;Now all you have to do to enable the proxy is click the little globe icon next to the address bar and select &quot;Home Proxy.&quot; To return to the unproxied Internet simply select Direct Connection.&lt;/li&gt;
+	&lt;li&gt;To quickly toggle back and forth between proxy enabled and disabled, you can change the &quot;General&quot; settings to enable quick switch and select Home Proxy for Profile 2 on the binary switch. Save your settings, and then just clicking the globe icon will toggle between your two connections.&lt;/li&gt;
+&lt;/ol&gt;
+One thing you'll need to know about the proxy: It does not provide a completely encrypted Internet connection. It will only provide an encrypted connection between you and your SSH proxy server. If someone is monitoring the traffic between your SSH server and the sites you visit, this will not help. Using SSH to proxy essentially provides you the same security of browsing the Internet from your SSH server, whatever that means for you.
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to filter Netflix on MPAA Rating</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-06-05T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/06/05/how-to-filter-netflix-on-mpaa-rating</id>
+    <content type="html">I was searching and searching this morning for how to filter my Netflix recommendations based on the MPAA rating. A lot of movies I like are action movies, and it turns out a lot of action movies are rated R. Since I don't watch rated R movies, I spent a lot of time clicking through recommendations for movies I would never watch.&lt;!--more--&gt;
+
+Apparently my problem was that I was looking in the wrong place. I thought the rating filtering would be under Taste Preferences. Turns out it's in another spot entirely. Here are the instructions that I found on the Netflix &lt;a href=&quot;http://community.netflix.com/forum/topics/1993323:Topic:278?page=9&amp;amp;commentId=1993323:Comment:7614&amp;amp;x=1&quot;&gt;Feature Wishlist&lt;/a&gt;:
+&lt;ol&gt;
+	&lt;li&gt;Go to the top of the netflix website, next to your name, you'll see this link &quot;&lt;a rel=&quot;nofollow&quot; href=&quot;http://www.netflix.com/YourAccount&quot;&gt;Your Account&lt;/a&gt;&quot;,&lt;/li&gt;
+	&lt;li&gt;After clicking on that, click on the link that says &quot;Account Profiles&quot;,&lt;/li&gt;
+	&lt;li&gt;Click on &quot;Edit&quot; next to the profile you wish to change,&lt;/li&gt;
+	&lt;li&gt;Click on &quot;Maturity Level&quot; and choose the level you wish to have access to only.&lt;/li&gt;
+&lt;/ol&gt;
+If you don't want to see movies rated R, just set the maturity level to PG-13. It worked like a charm. I no longer see recommendations for rated R movies. I only wish this had been easier to find.
+
+Update: After using this for a few months, I've noticed that it's less than perfect. The levels you can select are all movie ratings (G, PG, PG-13, R, All Movies). Unfortunately, TV show ratings are slightly different, and the filtering doesn't match up. For example, I selected PG-13 as my maturity level, but I want to be able to watch TV shows like 24, which is rated TV-14. Apparently because 14 is higher than 13, I can't watch TV-14 shows unless my filter settings are set to &quot;R.&quot;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Still here</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-05-23T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/05/23/still-here</id>
+    <content type="html">Things have been pretty crazy the past few weeks. I've graduated, moved, gone on vacation, returned from vacation, interviewed for jobs, found a job, and started a job. Things are calming down now, and I may be able to write something useful here soon.
+
+I plan on spending the summer refreshing my increasingly lacking programming abilities. I intended to do it with Python, but it sounds like Java will be a better investment for me, at least for now.
+</content>
+  </entry>
+  
+  <entry>
+    <title>QA Tool Review: WAPT 5.0</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-03-19T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/03/19/wapt</id>
+    <content type="html">Okay, I decided to get the last of the QA tool reviews out on the site so I don't have to think about them any more. Here it is:
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;
+WAPT is a performance/load testing tool developed by SoftLogica. It is a Windows-only tool designed to be very easy to use. A free 30-day trial is available at the &lt;a href=&quot;http://www.loadtestingtool.com/download.shtml&quot;&gt;company website&lt;/a&gt; that allows full functionality with the restriction of 20 virtual users.
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Overview&lt;/h2&gt;
+&lt;h3&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Very easy to record and run tests&lt;/li&gt;
+	&lt;li&gt;Decent reporting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Not Free&lt;/li&gt;
+	&lt;li&gt;No scripting capability&lt;/li&gt;
+	&lt;li&gt;Doesn’t do well recording AJAX calls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Pricing&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Standard license - $350 with price per license decreasing with volume
+&lt;ul&gt;
+	&lt;li&gt;No distributed load generation&lt;/li&gt;
+	&lt;li&gt;Unlimited VUs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;WAPT Pro - $700 includes 1 standard license and 2 load agents
+&lt;ul&gt;
+	&lt;li&gt;Additional Load Agents - $200&lt;/li&gt;
+	&lt;li&gt;Provides distributed load generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Ease of Use&lt;/h2&gt;
+&lt;h3&gt;Ease of Installation&lt;/h3&gt;
+WAPT was super easy to install. It installs just as easily as any Windows program. The installer puts everything where it needs to be and you’re set to go.&lt;!--more--&gt;
+&lt;h3&gt;Setting up a Test&lt;/h3&gt;
+Setting up a test is as simple as starting to record, then going to the sites you want to test. WAPT records all your activity. You then organize it into Initial, Main, and Final actions. The initial actions are executed once per VU per round. These would include things like logging in. The main actions are completed as many times as you tell it to in the virtual user profile. Final actions are completed after all iterations of the main actions.&lt;strong&gt; &lt;/strong&gt;
+
+Once the tests are recorded, you set the Test Volume information and run the test.
+
+I docked WAPT 1 point in this category because the recorder does not do a very good job with AJAX applications. It did okay with Gmail but not so much with LDS Maps.
+&lt;h3&gt;Running a Test&lt;/h3&gt;
+Running a test is a piece of cake. Once it’s all set up, click the run button and you’re on your way.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Technical Knowledge Needed&lt;/h3&gt;
+Little to no technical ability is needed, since there is no scripting or programming required. You can do most tests just by recording them and playing them back.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Platform&lt;/h3&gt;
+WAPT is Windows-only. Requirements:&lt;strong&gt; &lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Windows 98/Me/2000/XP/Vista (also works on Windows 7 RC)&lt;/li&gt;
+	&lt;li&gt;Internet Explorer 5.5 or higher&lt;/li&gt;
+	&lt;li&gt;At least 100 MB free hard drive space (for program + logs)&lt;/li&gt;
+&lt;/ul&gt;
+Recommended:
+&lt;ul&gt;
+	&lt;li&gt;Pentium 4 or Athlon XP processor&lt;/li&gt;
+	&lt;li&gt;512 MB+ RAM&lt;/li&gt;
+	&lt;li&gt;Gigabit ethernet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--StartFragment--&gt;
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Functionality&lt;/h2&gt;
+&lt;h3&gt;Recording a test&lt;/h3&gt;
+WAPT uses an in-application browser to record test cases. This is a great feature when recording https test cases. Most other tools use a proxy which is unable to detect https GET/POST data.&lt;strong&gt; &lt;/strong&gt;
+
+Unfortunately WAPT doesn’t do a great job recording AJAX application scenarios. Some AJAX requests are missed by the recorder, and thus would have to be created manually. With the Internet moving more and more toward rich applications, this will be a problem if they can’t get it resolved in future versions.
+&lt;h3&gt;Scripting&lt;/h3&gt;
+WAPT does not support any kind of scripting.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Reporting&lt;/h3&gt;
+The reports can be saved as html files which includes some summary data and basic graphs. Results can also be saved to a CSV file if a more detailed data analysis is needed. Figure 1 and Figure 2 below show examples of the information that is available in the HTML reports. As you can see from Figure 2, the data is grouped together by time period. These groupings can be adjusted. The current setting groups them into 10 different segments. That number can be raised or lowered as desired. The list below is all the statistics that are calculated and included in the HTML reports.&lt;strong&gt; &lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Avg response time (also min/max per page)&lt;/li&gt;
+	&lt;li&gt;Avg download time (also min/max per page)&lt;/li&gt;
+	&lt;li&gt;Pages per second&lt;/li&gt;
+	&lt;li&gt;Hits/sec&lt;/li&gt;
+	&lt;li&gt;Sessions/sec&lt;/li&gt;
+	&lt;li&gt;Total Kbytes sent and received&lt;/li&gt;
+	&lt;li&gt;Received and sent kbits/sec&lt;/li&gt;
+	&lt;li&gt;Received and sent kbits/sec/user&lt;/li&gt;
+	&lt;li&gt;HTTP errors (including user-defined validation errors)&lt;/li&gt;
+	&lt;li&gt;Socket errors&lt;/li&gt;
+	&lt;li&gt;Timeouts&lt;/li&gt;
+	&lt;li&gt;Active users&lt;/li&gt;
+	&lt;li&gt;Total pages, hits, and sessions&lt;/li&gt;
+&lt;/ul&gt;
+[caption id=&quot;attachment_85&quot; align=&quot;alignnone&quot; width=&quot;588&quot; caption=&quot;WAPT Report Graph (HTML)&quot;]&lt;a href=&quot;http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png&quot;&gt;&lt;img class=&quot;size-full wp-image-85 &quot; title=&quot;WAPT Report Graph (HTML)&quot; src=&quot;http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgi92CauI/AAAAAAAAAHI/AztbdPb4w5M/WAPT1.png&quot; alt=&quot;&quot; width=&quot;588&quot; height=&quot;416&quot; /&gt;&lt;/a&gt;[/caption]
+
+[caption id=&quot;attachment_86&quot; align=&quot;alignnone&quot; width=&quot;560&quot; caption=&quot;WAPT Report Table&quot;]&lt;a href=&quot;http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png&quot;&gt;&lt;img class=&quot;size-full wp-image-86   &quot; title=&quot;WAPT Report Table&quot; src=&quot;http://lh5.ggpht.com/_1K1I6RHdbSw/TAsgjDcJv0I/AAAAAAAAAHM/E6UxH0yxoH4/WAPT2.png&quot; alt=&quot;&quot; width=&quot;560&quot; height=&quot;397&quot; /&gt;&lt;/a&gt;[/caption]
+&lt;h4&gt;Trend Reporting&lt;/h4&gt;
+WAPT’s graphs are great at showing the trend throughout the test. Each metric is measured for each time period and the graph shows the results live while the test is running. These results are also available in the CSV file exported.
+&lt;h4&gt;Integration&lt;/h4&gt;
+The only external integration WAPT offers is the ability to export to CSV. &lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Data Functions&lt;/h3&gt;
+In WAPT this is possible, but not as smooth as with jMeter and others. It is done by creating a variable, selecting its function to be “Random from list” or “Ordered list”, and then loading the strings from a file. It this way, each parameter (e.g., street, address, city, etc.) needs its own file. Not the most efficient way. Other programs allow you to use a CSV with each column as its own variable.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Load Generation / Distributed Load Generation&lt;/h3&gt;
+WAPT does not support distributed load testing. WAPT Pro does, but the license for that costs twice what the regular license is. WAPT Pro includes the ability to generate load with 2 machines. More “load agents” as they are called cost $200. There is no limit on VUs, though, so your ability to create load is limited only by your hardware.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Server Monitoring&lt;/h3&gt;
+WAPT does not include any ability to perform server monitoring. WAPT Pro does.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+The documentation that comes with WAPT is great. Because the tool is so simple, it really doesn’t need a lot of documentation. WAPT is not feature-rich, so the little documentation that exists effectively covers all of its functionality.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;User Interface&lt;/h3&gt;
+Fairly pretty UI. Bubbly icons look a little ‘90s, but it’s not bad.&lt;strong&gt; &lt;/strong&gt;
+&lt;h3&gt;Performance v. Stress Testing&lt;/h3&gt;
+WAPT supports both static-load performance testing and ramp-up stress testing. It also allows you to select whether you want the tests to run a certain number of times or just for a certain time frame. The screenshot below (Figure 3) shows the setup screen where you select how many VUs will be in the test, the ramp-up time (if there is any), and the final load. WAPT also provides an option for “Periodic” load, which alternates between two levels on a schedule you set.
+
+[caption id=&quot;attachment_87&quot; align=&quot;alignnone&quot; width=&quot;300&quot; caption=&quot;WAPT Load test setup&quot;]&lt;a href=&quot;http://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-87 &quot; title=&quot;WAPT Load test setup&quot; src=&quot;http://lh6.ggpht.com/_1K1I6RHdbSw/TAsgjMamHKI/AAAAAAAAAHQ/1dIgFkyVnfY/s576/WAPT3.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;256&quot; /&gt;&lt;/a&gt;[/caption]
+&lt;h3&gt;Bugs/Weirdness&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;The built-in report graphs are great, but they use both sides of the y-axis for different scales (Figure 4). There is no indication which line is associated with which scale. You have to turn items off and back on to be able to figure out what goes where.&lt;strong&gt; &lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+[caption id=&quot;attachment_88&quot; align=&quot;alignnone&quot; width=&quot;530&quot; caption=&quot;WAPT report graph&quot;]&lt;a href=&quot;http://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png&quot;&gt;&lt;img class=&quot;size-full wp-image-88  &quot; title=&quot;WAPT report graph&quot; src=&quot;http://lh3.ggpht.com/_1K1I6RHdbSw/TAsd9V4yj4I/AAAAAAAAAHE/1bZs_lDuFIQ/WAPT4.png&quot; alt=&quot;&quot; width=&quot;530&quot; height=&quot;482&quot; /&gt;&lt;/a&gt;[/caption]
+&lt;h2 style=&quot;text-align: center;&quot;&gt;Project Info&lt;/h2&gt;
+&lt;h3&gt;History&lt;/h3&gt;
+SoftLogica is based out of Novosibirsk, Russia. Their website appears very out of date, with the most recent press release from 2007, and the newest newsletter from 2006.
+&lt;h3&gt;Frequency of Releases&lt;/h3&gt;
+New major versions of WAPT are released on average every two years. The newest version (5.0) was released in May, 2007.
+&lt;h3&gt;Active Forums&lt;/h3&gt;
+&lt;h4&gt;Official Forums&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.loadtestingtool.com/forum/index.php&quot;&gt;Official WAPT Forum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Unofficial Forums&lt;/h4&gt;
+&lt;ul&gt;
+	&lt;li&gt;N/A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Company URL&lt;/h3&gt;
+&lt;a href=&quot;http://www.softlogica.com/&quot;&gt;http://www.softlogica.com/&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;
+
+&lt;!--EndFragment--&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>QA Tool Review: The Grinder</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-03-19T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/03/19/the-grinder</id>
+    <content type="html">&lt;h1 style=&quot;text-align: center;&quot;&gt;Description&lt;/h1&gt;
+The Grinder is a Java&lt;sup&gt;TM&lt;/sup&gt; load testing framework that makes it easy to run a distributed test using many load injector machines. It is freely available under a BSD-style open-source &lt;a href=&quot;http://grinder.sourceforge.net/license.html&quot;&gt;license&lt;/a&gt;. Below is a list of some if its key features.
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Generic      Approach&lt;/strong&gt; Load test anything that has a Java API. This includes      common cases such as HTTP web servers, SOAP and REST web services, and      application servers (CORBA, RMI, JMS, EJBs), as well as custom protocols.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Flexible      Scripting&lt;/strong&gt; Tests are written in the powerful Jython scripting      language.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Distributed      Framework&lt;/strong&gt; A graphical console allows multiple load injectors to      be monitored and controlled, and provides centralised script editing and      distribution.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Mature HTTP Support&lt;/strong&gt; Automatic management of client connections and      cookies. SSL. Proxy aware. Connection throttling. Sophisticated record and      replay of the interaction between a browser and a web site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Overview&lt;/h1&gt;
+&lt;h2&gt;Pros&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Jython scripting makes tests very customizable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cons&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Scripts can be complicated to write and maintain&lt;/li&gt;
+	&lt;li&gt;Fairly solid technical ability required&lt;/li&gt;
+	&lt;li&gt;Proxy recorder does not record HTTPS traffic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pricing&lt;/h2&gt;
+The Grinder is free and open-source. BSD-style open source license.
+
+&lt;!--StartFragment--&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;a name=&quot;_Toc236459710&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2&gt;Ease of Installation&lt;/h2&gt;
+Installing The Grinder is a pretty complicated process compared to the ease of other tools. First go to The Grinder’s &lt;a href=&quot;http://sourceforge.net/projects/grinder/&quot;&gt;SourceForge page&lt;/a&gt; and download the current version. Then go to the “&lt;a href=&quot;http://grinder.sourceforge.net/g3/getting-started.html#howtostart&quot;&gt;Getting Started&lt;/a&gt;” page and follow the instructions for creating the startup scripts and property files required. (Note: instead of creating a new grinder.properties file from scratch, I recommend copying the grinder.properties file from the examples directory. It gives a well commented base to start from.)&lt;!--more--&gt;
+&lt;strong&gt; &lt;/strong&gt;
+
+Once you’ve got all the scripts created, test it out by running startGrinderConsole.cmd and startGrinderAgent.cmd to make sure that the Grinder Agent properly connects to the Console to receive commands. If the “Start worker processes” and “Reset worker processes” buttons are enabled, then the communication is successful and you will be able to run tests.
+&lt;h2&gt;Setting up a Test&lt;/h2&gt;
+The best way to set up a Grinder test is first to record a script, then adjust it if necessary. First start up the proxy on your computer by running startGrinderProxy.cmd (you should have created this file during the installation). Tell your favorite web browser to direct traffic to localhost:8001 (unless you changed the proxy port settings). Unless you changed the commands in startGrinderProxy.cmd, the proxy will create a file called “grinder.py”. When you’re done recording your actions, stop the proxy and change your browser settings back to normal. You can open up the newly created Jython script and edit it if you want, or you can run it as is.&lt;strong&gt; &lt;/strong&gt;
+
+Next you have to change your grinder.properties file to determine how many worker processes and threads/process you want to run. Set grinder.processes and grinder.threads to dictate how many processes you want and how many threads per process. Leave grinder.runs at 0 as long as you will be using the console. Be sure to change grinder.script to point to the script file you want to run. Once you have that set up, you are ready to run the test.
+&lt;h2&gt;Running a Test&lt;/h2&gt;
+Once the test script has been recorded it is easy to run. Just modify the grinder.script property in grinder.properties to point to the correct *.py file. Then start the Grinder Console and an Agent process. Then click the “start the worker processes” button and your test will start running. When you want to stop click “stop collecting statistics” and then “Reset the worker processes.” That’s it.&lt;strong&gt; &lt;/strong&gt;
+
+After the test runs, if you decide everything went well enough that you want to save the results, click “File” à “Save results…” to save the tab-delimited results table. By default it is saved as a .data file. You’ll probably need to associate Excel with that kind of file, unless you have another preferred tab-delimited file reader.
+&lt;h2&gt;Technical Knowledge Needed&lt;/h2&gt;
+Just to get the program set up doesn’t require a whole lot of technical ability, just the ability to follow instructions. The creation of a script using the proxy is also very simple. However, if you want to start creating your scripts from scratch or editing the recorded script, then you’re going to need some technical prowess.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Platforms&lt;/h2&gt;
+The Grinder is a Java application, so it will run anywhere Java runs. The Grinder 3 requires Java 1.4 or greater.&lt;strong&gt; &lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Windows&lt;/li&gt;
+	&lt;li&gt;Mac&lt;/li&gt;
+	&lt;li&gt;Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--StartFragment--&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;a name=&quot;_Toc236459716&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2&gt;Recording a test&lt;/h2&gt;
+The Grinder provides a proxy tool that can be used to record tests. The proxy is used to create a Grinder script that can then be run from an agent. The proxy records every request that is sent out, and includes a timer to time the delays between requests. This is great for accurately simulating a user’s interaction with the system.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Scripting&lt;/h2&gt;
+The creation of tests is done entirely in Jython, the JVM implementation of the Python programming language. The recorder creates a Jython script that can be modified to fit exactly what you want. You can also create scripts from scratch, but the recommended method is to start from a recorded script.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Reporting&lt;/h2&gt;
+The built-in reporting consists of a scrolling graph of the 25 most recent Tests per Second (TPS) values for each test being run. There is also a table of data for each test. This is the same data that is available to be saved as a tab-delimited results file. The data reported is listed below:&lt;strong&gt; &lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Test #&lt;/li&gt;
+	&lt;li&gt;Description&lt;/li&gt;
+	&lt;li&gt;Successful tests&lt;/li&gt;
+	&lt;li&gt;Errors&lt;/li&gt;
+	&lt;li&gt;Mean time&lt;/li&gt;
+	&lt;li&gt;Mean time Standard deviation&lt;/li&gt;
+	&lt;li&gt;TPS (tests per second)&lt;/li&gt;
+	&lt;li&gt;Peak TPS&lt;/li&gt;
+	&lt;li&gt;Mean response length&lt;/li&gt;
+	&lt;li&gt;Response bytes per second&lt;/li&gt;
+	&lt;li&gt;Response errors&lt;/li&gt;
+	&lt;li&gt;Mean time to resolve host&lt;/li&gt;
+	&lt;li&gt;Mean time to establish connection&lt;/li&gt;
+	&lt;li&gt;Mean time to first byte&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Trend Reporting&lt;/h3&gt;
+The Grinder shows a graph during the test run that shows the tests per second for each of the tests being run for the past 10 or so sampling periods. That is the extent of trend reporting. All other numbers are reported in aggregate for the entire test run. The only numbers available in the CSV report are aggregate.
+&lt;h3&gt;Integration&lt;/h3&gt;
+The Grinder exports all test results as a CSV file. That is the extent of its integration with anything.
+&lt;h2&gt;Data Functions&lt;/h2&gt;
+Since the tests are all run using Jython, anything that can be done with Jython can be done in the tests.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Load Generation / Distributed Load Generation&lt;/h2&gt;
+Although I have not tried it, the ability to generate a distributed load seems to be very straightforward. All you need is to start an agent process on another computer and modify the grinder.consoleHost property in the grinder.properties file. That agent will then be ready to receive commands from the console and report back.&lt;strong&gt; &lt;/strong&gt;
+
+Application performance when generating a load is very good. I was able to run 400 threads (20 worker processes with 20 threads each) without putting much of a dent in system performance at all. Starting up all the processes maxed out my CPU for about 15 seconds, but after all the processes were started the CPU ran at about 25% with spikes up to 50%. The 400 threads consumed about 512 MB of RAM.
+&lt;h2&gt;Documentation&lt;/h2&gt;
+The Grinder’s documentation is good, but slightly fragmented. The &lt;a href=&quot;http://grinder.sourceforge.net/g3/manual.html&quot;&gt;User Guide&lt;/a&gt; on the home page is fairly complete, but it is not well organized. The &lt;a href=&quot;http://grinder.sourceforge.net/g3/script-javadoc/index.html&quot;&gt;Javadoc&lt;/a&gt; seems to be complete and well commented, although I didn’t use it very extensively.  There seems to be an adequate amount of community documentation and help as well. It is slightly more difficult to find because “Grinder” is a fairly common word, unlike WAPT or JMeter.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;User Interface&lt;/h2&gt;
+The UI is a standard Java Swing interface. Fairly ugly, but it gets the job done.&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Performance v. Stress Testing&lt;/h2&gt;
+The Grinder allows for both steady-load performance testing and ramp-up stress testing. Several properties in the grinder.properties file allow you to set the preferences for stress or performance testing. Check out the page for the properties file (&lt;a href=&quot;http://grinder.sourceforge.net/g3/properties.html&quot;&gt;link&lt;/a&gt;) to see all the settings you can adjust.&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Bugs/Weirdness&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;The Grinder is shipped with a version of Jython but does not package the Jython distribution of the standard Python library. If you want to use the standard library, or if you want to use a different version of Jython, obtain and install Jython and tell The Grinder where you installed it. [taken from the Grinder user manual]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Project Info&lt;/h1&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+The Grinder was originally developed for the book &lt;em&gt;Professional Java 2 Enterprise Edition with BEA WebLogic Server&lt;/em&gt; by Paco Gómez and Peter Zadrozny. Philip Aston took ownership of the code, reworked it to create The Grinder 2, and shortly after began work on The Grinder 3. The Grinder 3 provides &lt;a href=&quot;http://grinder.sourceforge.net/g3/whats-new.html&quot;&gt;many new features&lt;/a&gt;, the most significant of which is Jython scripting. Philip continues to enhance and maintain The Grinder.
+
+In 2003, Peter, Philip and Ted Osborne published the book &lt;a href=&quot;http://grinder.sourceforge.net/links.html#book&quot;&gt;J2EE Performance Testing&lt;/a&gt; which makes extensive use of The Grinder 2.
+&lt;h2&gt;Frequency of Releases&lt;/h2&gt;
+Limited information is available on the frequency of releases for The Grinder. There are three versions available on SourceForge that were released in 2008 &amp;amp; 2009. The most recent version (3.2) was released in February, 2009.
+
+&lt;a href=&quot;http://www.ohloh.net/p/9894&quot;&gt;Ohloh.net&lt;/a&gt; reports that The Grinder is experiencing decreasing year-over-year development activity.
+&lt;h2&gt;Active Forums&lt;/h2&gt;
+&lt;h3&gt;Official Forums&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;Support mailing list: &lt;a href=&quot;mailto:Grinder-use@lists.sourceforge.net&quot;&gt;Grinder-use@lists.sourceforge.net&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://sourceforge.net/mailarchive/forum.php?forum_name=grinder-use&quot;&gt;Mailing list searchable archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unofficial Forums&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.nabble.com/Grinder-f2584.html&quot;&gt;Nabble Grinder Forum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Company URL&lt;/h2&gt;
+&lt;a href=&quot;http://grinder.sourceforge.net/&quot;&gt;http://grinder.sourceforge.net/&lt;/a&gt;
+
+&lt;!--EndFragment--&gt; &lt;!--EndFragment--&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>New Skills</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-02-28T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/02/28/new-skills</id>
+    <content type="html">So, I've decided to rededicate myself to learning new tech skills.
+
+Because I'll be starting a Ph.D. in the fall, I figure one of the best places to start is with statistics. I've heard really good things about the &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt; statistical package, so that's what I'm going with. It's got a couple really good things going for it. First, it's free. That means I can always get it. I don't know if this really happens, but one worry I have is learning something like SPSS or another stats software, then moving to a new school and having to learn a new one. R is also open source, which means updates happen a lot more frequently than with proprietary software. Plus, if I really get ambitious I can monkey around with it myself. Also, it is a programming language, so I can really get my geek on and create programs to do all sorts of cool statistical analysis. So far I haven't done much beyond T-tests, but I'm getting there slowly. I'm going back through my old stats book, &lt;a href=&quot;http://www.proaxis.com/~panorama/home.htm&quot;&gt;The Statistical Sleuth&lt;/a&gt;, and doing the exercises there with R so I can get a feel for how it works.
+
+The other main thing on my list now is to get into Python again. I kinda started learning Python, wrote one program, then abandoned that pursuit. I'm not sure if laziness got in the way or what, but I've decided to go at it again. I guess my biggest problem with programming is that I can't really think of things to program. I want to be a better programmer, but when it comes down to it I just don't. But I picked up a Python book and a Django book, so hopefully this time around I'll have the drive to make it happen. It will be really nice to have some web programming skills.
+
+Anyway, so that's what I'm up to now. Learning R, learning Python, and trying to be a better me than yesterday.
+</content>
+  </entry>
+  
+  <entry>
+    <title>Passing the CCNA</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-02-06T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/02/06/passing-the-ccna</id>
+    <content type="html">I'm sure pretty much nobody reads this, but oh well. I'm going to try to start posting more often to keep the world who doesn't care updated on what I'm doing and thinking technology-wise. I want to be more intense about this, but I don't think there's much chance I'll be making money on this site any time this decade. Plus, it takes so long to write a well-thought-out post that I just don't do it. So, here goes.
+
+Newest thing tech-wise for me is that I passed the CCNA at the end of last semester. It was a pretty intense test. I think the hardest part was not being able to skip ahead and go back. When I take any multiple choice test, I tend to skip around. The other day I was taking a final and I answered the first 10 or so questions, then skipped to the end and worked backwards to about question 30. Then I skipped ahead and worked forward again. I'm not sure why I do it, but it seems to work for me. I got a 95% on that test, and I finished it in less than 30 minutes. And they said it would take about 3 hours.
+
+Anyway, back to the CCNA. I prepped for it using BYU's Advanced Datacom class from the I Sys program. It was a great class, and gave me an excuse and an opportunity to play with Cisco gear. It was awesome. I also used Todd Lammle's CCNA study guide (Available at &lt;a href=&quot;http://www.amazon.com/CCNA-Certified-Network-Associate-640-802/dp/0470110082/ref=sr_1_1?ie=UTF8&amp;amp;s=books&amp;amp;qid=1265512040&amp;amp;sr=8-1&quot; target=&quot;_self&quot;&gt;Amazon.com&lt;/a&gt;), which was also amazing. It may not go as in-depth as Cisco's books, but it covers exactly what you need to know to pass the CCNA. I'm a big fan.
+
+The biggest thing I did was memorize commands. I knew that knowing the IOS commands for routers and switches would be important, so that's what I focused on. Specifically, I didn't spend a whole lot of time actually practicing on the gear. Once I'd set up RIPv2 or VTP once, I didn't really feel like doing it again was going to help me much. I went through the chapters of Lammle's book and learned every command he mentions. I think that was the biggest thing that helped me pass. Also, spending 4 hours in the car outside the testing center running through commands didn't hurt.
+
+Anyway, point is, I passed! I am now an official Cisco Certified Network Associate. Who knows if I'll actually use the things I learned after I leave school, but I certainly hope so. I really enjoy networking and all that jazz.
+</content>
+  </entry>
+  
+  <entry>
+    <title>QA Tool Review: JMeter</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2010-01-02T00:00:00-07:00</updated>
+    <id>http://codeography.com/2010/01/02/jmeter</id>
+    <content type="html">&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Description&lt;/span&gt;&lt;/h1&gt;
+&lt;a href=&quot;http://jakarta.apache.org/jmeter/&quot;&gt;Apache JMeter&lt;/a&gt; is open source software, a 100% pure Java desktop application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+
+Apache JMeter may be used to test performance both on static and dynamic resources (files, Servlets, Perl scripts, Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load.
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Overview&lt;/h1&gt;
+&lt;h2&gt;Pros&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Free &amp;amp; Open Source&lt;/li&gt;
+	&lt;li&gt;Distributed testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cons&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;A little buggy&lt;/li&gt;
+	&lt;li&gt;Reporting is lacking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pricing&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Free and Open Source&lt;/li&gt;
+	&lt;li&gt;Programmed in Java&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Ease of Use&lt;/h1&gt;
+&lt;h2&gt;Ease of Installation&lt;/h2&gt;
+Install Java, download the zip file and unzip it. Run the .bat file to run the program and you’re set.&lt;!--more--&gt;
+&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Setting up a Test&lt;/h2&gt;
+Add a thread group to the test plan. Configure the thread group by determining ramp-up period and how many threads you want running at the end (see Figure 1). Set up a proxy to record your test (Right-click Workbench à Add à Non-test elements à HTTP Proxy server). After the proxy is set up you can tell your browser to route requests through the proxy (default localhost:8080). The proxy will record all requests and store them in the Thread Group as samplers. Add a listener to record your test results and you’re good to go. Overall it’s a very straightforward, well-documented process.&lt;strong&gt; &lt;/strong&gt;
+
+&lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-51&quot; title=&quot;Creating a Thread group&quot; src=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled.png&quot; alt=&quot;&quot; width=&quot;571&quot; height=&quot;349&quot; /&gt;&lt;/a&gt;
+
+Figure 1 - Create thread group
+&lt;h2&gt;Running a Test&lt;/h2&gt;
+Run à Start or Ctrl+R. Bam!&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Technical Knowledge Needed&lt;/h2&gt;
+Very little technical knowledge is needed. It does require the ability to learn how to do something from the documentation since it is not very intuitive.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Platforms&lt;/h2&gt;
+JMeter is a Java program, and thus runs wherever Java can. It requires Java 1.4 or greater.&lt;strong&gt; &lt;/strong&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Functionality&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2&gt;Recording a test&lt;/h2&gt;
+JMeter provides a proxy server through which you can record tests (see Figure 2). It’s fairly simple to set up, and it does a good job recording every request sent through it. You can choose which kinds of files to include or exclude in the recording, which is great because you probably don’t need to record all .gif, .png, etc. files as separate requests. Set it up by right-clicking the Workbench and select Add à Non-test elements à HTTP Proxy Server. It can then be configured to group the samplers however you want, and add the instructions for which URL patterns to include or exclude. See Figure 2 for an example set up. Once it is set up, just click start and tell your web browser to direct traffic through the proxy. The samplers will be created and you are well on your way to having your dream test.&lt;strong&gt; &lt;/strong&gt;
+
+Because it uses a proxy, it cannot detect HTTPS traffic, so any secure requests will have to be created manually.
+
+&lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-52&quot; title=&quot;Setting up a Proxy Server&quot; src=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled2.png&quot; alt=&quot;&quot; width=&quot;602&quot; height=&quot;382&quot; /&gt;&lt;/a&gt;
+
+Figure 2 - Set up a Proxy Server
+&lt;h2&gt;Scripting&lt;/h2&gt;
+JMeter supports BeanShell scripting. I don’t know anything about it, so I can’t really rate its ability, but supposedly it exists.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Reporting&lt;/h2&gt;
+There are several reports that can be viewed within JMeter that provide a moderate level of detail. The data listed below can be recorded in a CSV file after each test. The built-in reports you can view in the GUI during test runs are lacking. Some of them don’t work. Some are useful (see Figure 3). The list below includes all information available in the CSV file:&lt;strong&gt; &lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Start time (ms)&lt;/li&gt;
+	&lt;li&gt;Load time (ms)&lt;/li&gt;
+	&lt;li&gt;Sampler name&lt;/li&gt;
+	&lt;li&gt;Response code&lt;/li&gt;
+	&lt;li&gt;Response message&lt;/li&gt;
+	&lt;li&gt;Thread name&lt;/li&gt;
+	&lt;li&gt;Content type (e.g. text, bin)&lt;/li&gt;
+	&lt;li&gt;Success&lt;/li&gt;
+	&lt;li&gt;Size in bytes&lt;/li&gt;
+	&lt;li&gt;Latency&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-53&quot; title=&quot;Distribution Graph&quot; src=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled3.png&quot; alt=&quot;&quot; width=&quot;617&quot; height=&quot;392&quot; /&gt;&lt;/a&gt;
+
+Figure 3 - Distribution Graph
+&lt;h3&gt;Trend Reporting&lt;/h3&gt;
+JMeter’s listeners do several things, including trend graphing (see Figure 4). In addition, the exported CSV file contains detailed information for each request, including the time that the request started and how long it took. From this, with some Excel magic, it would be possible to create a trend graph.
+
+&lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-54&quot; title=&quot;Trend Graph&quot; src=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled4.png&quot; alt=&quot;&quot; width=&quot;564&quot; height=&quot;358&quot; /&gt;&lt;/a&gt;
+
+Figure 4 - Trend graph
+&lt;h3&gt;Integration&lt;/h3&gt;
+The only integration JMeter supports is exporting test results to CSV.
+&lt;h2&gt;Data Functions&lt;/h2&gt;
+Using a CSV Data Set config element, you can easily create user defined variables using the information from a CSV file (See Figure 5). &lt;strong&gt; &lt;/strong&gt;
+
+&lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-55&quot; title=&quot;CSV Data Set Config&quot; src=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2010/01/Untitled5.png&quot; alt=&quot;&quot; width=&quot;589&quot; height=&quot;406&quot; /&gt;&lt;/a&gt;
+
+Figure 5. CSV Data Set Config
+
+&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Load Generation / Distributed Load Generation&lt;/h2&gt;
+JMeter offers distributed testing. I have not tested it, but from reviews it appears that in order to use multiple load generation tools, the GUI must be used. However, it is possible to run tests on one computer without the GUI and just record the results to a file. This minimizes system resource use and allows you to generate a higher load from one machine.&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+The documentation for JMeter is extensive. The &lt;a href=&quot;http://jakarta.apache.org/jmeter/&quot;&gt;JMeter website&lt;/a&gt; has a ton of documentation, great tutorials, a great user manual, and clear Javadocs. There are also many other website with great tutorials and documentation for getting started with JMeter.&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;User Interface&lt;/h2&gt;
+Typical Java Swing GUI. Ugly but functional.&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Performance v. Stress Testing&lt;/h2&gt;
+JMeter offers both constant-load performance testing and ramp-up stress testing. The tests are set up to run for a certain number of repetitions. &lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Bugs/Weirdness&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Excel problem with JMeter CSV files: When saving test results to a csv, Excel likes to show big numbers (like the start time) in engineering notation (i.e., 1.24E10). If you open the file and save it, it will save it in engineering notation. When you open the file again, several significant digits will be lost, making the start time data essentially useless. This can be overcome by changing the stuff from a CSV to XLSX or by formatting the number as a regular number.&lt;/li&gt;
+	&lt;li&gt;You can’t save both the Test Plan and WorkBench at the same time. You have to save each separately. I also couldn’t get them to open together. I could open either the workbench or the test plan file, but if I tried to do both, the second one I opened would overwrite the first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Project Info&lt;/h1&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+Stefano Mazzocchi of the Apache Software Foundation was the original developer of JMeter. He wrote it primarily to test the performance of Apache JServ (a project that has since been replaced by the Apache Tomcat project). JMeter has been redesigned to enhance the GUI and to add functional-testing capabilities.
+&lt;h2&gt;Frequency of Releases&lt;/h2&gt;
+JMeter has a new release approximately 1-2 times per year. Most of these releases are minor bug-fix versions. The most recent version (2.3.4) was released in June, 2009.
+
+&lt;a href=&quot;http://www.ohloh.net/p/jmeter&quot;&gt;Ohloh.net&lt;/a&gt; says that JMeter is experiencing decreasing year-over-year development activity.
+&lt;h2&gt;Active Forums&lt;/h2&gt;
+&lt;h3&gt;Official Forums&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://mail-archives.apache.org/mod_mbox/jakarta-jmeter-user/&quot;&gt;JMeter user mailing list archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Unofficial Forums&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.nabble.com/JMeter-f296.html&quot;&gt;Nabble JMeter Forum&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.sqaforums.com/postlist.php?Board=UBB54&quot;&gt;SQA Forums: JMeter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Company URL&lt;/h2&gt;
+&lt;a href=&quot;http://jakarta.apache.org&quot;&gt;http://jakarta.apache.org&lt;/a&gt;&lt;strong&gt;&lt;/strong&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>QA tool review: Watij</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-12-18T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/12/18/watij</id>
+    <content type="html">&lt;h1 style=&quot;text-align: center; &quot;&gt;Description&lt;/h1&gt;
+&lt;span style=&quot;font-weight: normal; font-size: 13px; &quot;&gt;&lt;strong&gt;Watij&lt;/strong&gt; (&lt;em&gt;pronounced wattage&lt;/em&gt;) stands for Web Application Testing in Java. &lt;strong&gt;Watij&lt;/strong&gt; is a pure Java &lt;acronym&gt;API&lt;/acronym&gt; created to allow for the automation of web applications. Based on the simplicity of &lt;a title=&quot;http://wtr.rubyforge.org/&quot; href=&quot;http://wtr.rubyforge.org/&quot;&gt;Watir&lt;/a&gt; and enhanced by the power of Java, &lt;strong&gt;Watij&lt;/strong&gt; automates functional testing of web applications through a real browser. Currently &lt;strong&gt;Watij&lt;/strong&gt; supports automating Internet Explorer on Windows only. Future plans are in place to support others like Mozilla.&lt;/span&gt;
+&lt;h1 style=&quot;text-align: center; &quot;&gt;Overview&lt;/h1&gt;
+&lt;h2&gt;Pros&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Automatically waits for new pages to load&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cons&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;No record function to record/playback test scripts&lt;/li&gt;
+	&lt;li&gt;No support for drag/drop in websites&lt;/li&gt;
+	&lt;li&gt;IE-only&lt;!--more--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Pricing&lt;/h2&gt;
+Free! And open source!
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Ease of Use&lt;/h1&gt;
+&lt;h2&gt;Ease of Installation&lt;/h2&gt;
+Maybe it’s just because I was using 64-bit Windows 7, but I had all kinds of problems getting Watij to start working. At first the files that were supposed to be copied by the beanshell bat file didn’t copy. Then it turned out that none of it worked in 64-bit Java, so I had to install 32-bit Java and Eclipse. Then opening the Beanshell window and entering the example script from the Watij website didn’t work.&lt;strong&gt; &lt;/strong&gt;
+
+Finally, after removing 64-bit Java and Eclipse and installing 32-bit in its place, it worked.
+&lt;h2&gt;Setting up a Test&lt;/h2&gt;
+Setting up simple tests is a fairly easy process. The following is an example of a simple test that opens a Google page, enters text, and clicks the search button. Obviously you have to have all the necessary dependencies added to your project:
+
+&lt;code&gt;import static watij.finders.SymbolFactory.*;
+import static org.junit.Assert.*;
+import watij.runtime.ie.*;
+public class Tests {
+IE ie = new IE();
+ie.textField(name, “q”).set(“Watij”);
+ie.button(name, “btnG”).click();
+assertTrue(ie.containsText(“Web Application Testing in Java”)); }&lt;/code&gt;
+&lt;h2&gt;Running a Test&lt;/h2&gt;
+Once you have a test set up in JUnit or TestNG, running it is easy. Just run it. &lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Technical Knowledge Needed&lt;/h2&gt;
+You have to be able to figure things out from the user guide, because beyond that, there is no documentation. The programming of tests doesn’t require a lot of skill.&lt;strong&gt; &lt;/strong&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Functionality&lt;/h1&gt;
+&lt;h2&gt;Recording a test&lt;/h2&gt;
+Not possible. All tests must be coded by hand.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Scripting&lt;/h2&gt;
+All of the testing is done with custom scripts. There is no recorder or GUI available.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Reporting&lt;/h2&gt;
+The reporting is done using the testing framework. Watij was designed to be used with JUnit, but can also be used with TestNG (or others, I suppose).&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Browser Support&lt;/h2&gt;
+Watij is currently only compatible with Internet Explorer.
+&lt;h2&gt;Data Functions&lt;/h2&gt;
+Since all the tests are run using Java (or BeanShell, supposedly; I couldn’t get it to work), you can do anything that Java can do. That includes pulling data from CSV files, iteration, and conditions.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+In all honesty, the documentation for Watij is scant. There is a decent user guide to provide a simple getting started tutorial. There is also an API, but there is no documentation there besides the default stuff generated by IntelliJ. Any search that I did for support with problems I had turned up pretty fruitless. Even the Google Group dedicated to Watij (&lt;a href=&quot;http://groups.google.com/group/watij&quot;&gt;link&lt;/a&gt;) has very little information about anything.&lt;strong&gt; &lt;/strong&gt;
+&lt;h2&gt;User Interface&lt;/h2&gt;
+N/A&lt;strong&gt;&lt;/strong&gt;
+&lt;h2&gt;Bugs/Weirdness&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;Watij automatically detects when a page has loaded successfully. Unfortunately this sometimes doesn’t work. Specifically, Watij never recognized that the Intranet home page loaded successfully. This may be an issue for other pages as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;Project Info&lt;/h1&gt;
+&lt;h2&gt;History&lt;/h2&gt;
+Watij came to be because there were Java people who wanted to run tests like those possible in &lt;a href=&quot;http://wtr.rubyforge.org/&quot;&gt;Watir&lt;/a&gt; without having to learn Ruby. There isn’t much information available on when the project started, or even who is running it.
+&lt;h2&gt;Frequency of Releases&lt;/h2&gt;
+The most recent version of Watij (3.2.1) was released in Jan, 2008. It appears to be an even-years-only project, since extensive work was done on the 1.1, 2.x &amp;amp; 3.1.x versions in 2006, then a little work was done in 2008 for version 3.2.x. Perhaps in 2010 we can look forward to more updates.
+&lt;h2&gt;Active Forums&lt;/h2&gt;
+&lt;h3&gt;Official Forums&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://groups.google.com/group/watij&quot; target=&quot;_blank&quot;&gt;http://groups.google.com/group/watij&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Company URL&lt;/h2&gt;
+&lt;a href=&quot;http://watij.com/&quot;&gt;http://watij.com/&lt;/a&gt;&lt;strong&gt;&lt;/strong&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Set up Postfix to send from Gmail</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-12-11T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/12/11/set-up-postfix-to-send-from-gmail</id>
+    <content type="html">Alternate title: How to send 9,000 emails from a Gmail address
+
+To preface this, I want to say that I am currently in charge of online activity for an honor society at school. As part of those responsibilities, I needed to send emails to over 9,000 prospective members to invite them to join the organization. We use Gmail addresses for our organizations email, but Google shuts off an email address after sending about 500 emails, and it shuts off an IP address after you send about 1,500 (using three different accounts).
+
+To solve this problem, I installed an SMTP server (&lt;a href=&quot;http://www.postfix.org/&quot;&gt;Postfix&lt;/a&gt;) on my computer at home so I could send that many emails. I couldn't find any free email provider who allows that many emails. Here are the steps to create the server:&lt;!--more--&gt;
+&lt;ol&gt;
+	&lt;li&gt;Create an MX record with your DNS&lt;/li&gt;
+	&lt;li&gt;I used this &lt;a href=&quot;http://jonsview.com/2009/03/26/how-to-setup-email-services-on-ubuntu-using-postfix-tlssasl-and-dovecot&quot;&gt;tutorial&lt;/a&gt; to set up Postfix and &lt;a href=&quot;http://www.dovecot.org/&quot;&gt;Dovecot&lt;/a&gt; for SMTP and IMAP. It provides a great walkthrough for setting up a secured SMTP server (a must unless you want any Joe Shmoe to send spam through your computer).&lt;/li&gt;
+	&lt;li&gt;Open up ports 25 (SMTP), 143 &amp;amp; 993 (IMAP) in whatever network devices you need to&lt;/li&gt;
+&lt;/ol&gt;
+Once you have that set up, it's a piece of cake to set up Outlook or your favorite mail client to send mail through your SMTP server.
+&lt;ol&gt;
+	&lt;li&gt;Create a new email account in your mail client&lt;/li&gt;
+	&lt;li&gt;Set up the incoming and outgoing servers to direct to your domain (example.com)&lt;/li&gt;
+	&lt;li&gt;Your email account for both incoming and outgoing mail will require secure authentication. Use the username and password for your user account on the server&lt;/li&gt;
+	&lt;li&gt;Your email address on the server will be user@example.com&lt;/li&gt;
+	&lt;li&gt;For the &quot;email address&quot; section of the account setup, just enter your Gmail (or other) address&lt;/li&gt;
+	&lt;li&gt;Proceed to send mail&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div&gt;The emails you send will appear to come from your Gmail address instead of user@example.com. This way you can use a Gmail address to send mass mail and receive responses.&lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>On Fatherhood, Windows 7, and the Motorola Droid</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-11-01T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/11/01/on-fatherhood-windows-7-and-the-motorola-droid</id>
+    <content type="html">Okay, it's been a busy semester, so it's been a long time since I've posted anything here. I'd just like to give some updates:
+
+1) I had a baby. He was born October 2, 2009 at 7:41 PM. He is awesome, and very well-behaved. He's not even a month old (well, he will be tomorrow) and he already sleeps 6-hour stretches at night. Amazing.
+
+2) Windows 7 is out now. Of course, you already knew that, but what the hey.&lt;!--more--&gt; I have it installed on my home theater PC and I'm a huge fan. I played around with the beta and RC versions, and I've been doing that since the beta came out, but nothing beats the real thing. Honestly, that and Office for Mac are enough to convince me that I want my next computer to be a PC. I'm sure it's all part of Redmond's grand plan, but Office for Mac is an absolutely terrible product. Unfortunately, as a student I'm dependent on office software, and I wasn't brave enough to make the leap to iWork. Now I'm kinda regretting that decision, but I can't afford two office suites, so I fight with Office and excitedly wait for the day when I can switch to a Windows 7 machine full-time.
+
+3) The Motorola Droid comes out this week, and I am super pumped for that. I've been a Verizon customer for the past 3 years and I don't really want to switch. They've been solid and reliable, and I used to work for AT&amp;amp;T so I know about all the crap that they have to deal with. Unfortunately, until now, Verizon has not at any decent (i.e., cool) smartphone. Sure, there's the Blackberry Storm, but I'm too young to own a Blackberry. Now there's the Storm 2, which seems cooler, but still, it's a Blackberry.
+
+The Droid, however, sounds awesome. I think the term iPhone killer is more than a little ridiculous because nothing is going to kill the iPhone, but I think it is a viable iPhone competitor. Android is a good operating system that is gaining momentum because it is available on phones for multiple carriers. There aren't as many apps for Android as there are for the iPhone, but how many apps do you really need? Considering that most apps are a &lt;a href=&quot;http://www.crn.com/mobile/214502072;jsessionid=YRY4TTORZY3ZLQE1GHPCKHWATMY32JVN&quot;&gt;download-and-forget&lt;/a&gt; plaything, I'm not sure how much better 100,000 apps are than 12,000.
+
+Now, I have to give my disclaimers here. I have never owned an iPhone. I have also never touched an Android phone. I probably won't own the Droid for at least a month (I'm working on convincing my wife that I &lt;em&gt;need &lt;/em&gt;one :). But it is the first Verizon phone that I can say I am really excited about. When (and if) I ever get to upgrade to a cool phone, I'm thinking the Droid will be it. Open development, &lt;a href=&quot;http://googleblog.blogspot.com/2009/10/announcing-google-maps-navigation-for.html&quot;&gt;turn-by-turn navigation&lt;/a&gt;, and DVD-quality video are enough to make me want it. Plus, I don't have to go to AT&amp;amp;T and deal with all their problems.
+
+4) Did I mention I'm a dad? How cool is that?
+</content>
+  </entry>
+  
+  <entry>
+    <title>QA Tool Review: Selenium</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-08-23T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/08/23/selenium</id>
+    <content type="html">This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool's usage from a new QA tester's perspective.
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 180%;&quot;&gt;Selenium 1.0.1 Evaluation&lt;/span&gt;&lt;/div&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Description&lt;/span&gt;
+Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/2079&quot;&gt;Firefox add-ons&lt;/a&gt; page or the &lt;a href=&quot;http://seleniumhq.org/download/&quot;&gt;Selenium homepage&lt;/a&gt;, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium &lt;a href=&quot;http://seleniumhq.org/download/&quot;&gt;downloads&lt;/a&gt; page.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Pros&lt;/span&gt;
+&lt;ul&gt;
+	&lt;li&gt;IDE allows easy recording and playback of tests, plus translation into other programming languages.&lt;/li&gt;
+	&lt;li&gt;Tests can be played in any browser&lt;!--more--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Cons&lt;/span&gt;
+&lt;ul&gt;
+	&lt;li&gt;IDE only available for Firefox.&lt;/li&gt;
+	&lt;li&gt;IDE not perfect at capturing interaction with a web application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Pricing&lt;/span&gt;
+Free, free, and free. Also, open source. Selenium server is developed in Java.
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: bold; font-size: 130%;&quot;&gt;Ease of Use&lt;/span&gt;&lt;/div&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Ease of Installation&lt;/span&gt;
+Selenium IDE is available as a Firefox extension. It can be installed either from the Mozilla Add-ons page or through the Selenium website. Often the Mozilla page does not have the latest version, so it is probably best to download from the Selenium homepage. As soon as the IDE is installed you can begin recording and playing back tests. For basic tests, you may not need anything more than the IDE. Tests can be recorded and run directly from there and the report is straightforward.&lt;!--more--&gt;
+
+Selenium RC is slightly more complicated because you have to use a programming language to run tests. It is still a pretty simple process to get running. You can use any testing framework and use the API to perform the tests and drive the server. This gets even easier if you use the IDE to record the test and translate it to the language. Then it’s a simple matter of tweaking the test to work in your chosen framework. By default the tests can be recorded and exported to Java for JUnit.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Setting up a Test&lt;/span&gt;
+Setting up a test is very easy. The IDE makes everything very simple. Most functional tests can be created by recording your browser actions. After you’ve got all the actions recorded, you can easily add assertions to verify that things are showing up like they should.
+
+Once a test is set up in the IDE, it can be translated into a programming language and run using that language.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Running a Test&lt;/span&gt;
+Running a test is a piece of cake in the IDE and the RC. Once you’ve got it set up you just run your test and the reports are generated. Bam!
+
+You can also organize tests into Test Suites to be run together. This allows you to separate different tests for different parts of functionality. These suites can be run directly from the IDE.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Technical Knowledge Needed&lt;/span&gt;
+To create tests using the IDE, very little technical knowledge or ability is needed. To create the tests in a programming language, some experience with a testing framework is very helpful.
+&lt;div style=&quot;text-align: center; font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 130%;&quot;&gt;Functionality
+&lt;/span&gt;&lt;/div&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Recording a test&lt;/span&gt;
+Recording through Selenium IDE is a piece of cake. It doesn’t capture everything perfectly (actions like pressing the browser’s back button aren’t recognized, but can be coded in), but correcting/tweaking tests to meet needs is as easy as inserting a new command and filling in the options.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Scripting&lt;/span&gt;
+Using the Selenium RC server, you can write tests in Java, C#, Perl, PHP, Python, and Ruby. Using these languages you can add your own custom assertions and tests to validate your application.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Reporting&lt;/span&gt;
+The reports generated within Selenium IDE show reports of how many tests were run and how many failed. In addition, they show which step of the test failed. When run in Java, they can be run using any testing framework, including JUnit and TestNG. The reports generated will be those created by the testing framework used.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Browser Support&lt;/span&gt;
+Selenium RC supports IE, Firefox, Google Chrome, and supposedly Opera. I couldn’t get Opera to work, but I didn’t spend very much time on it. Selenium IDE is a Firefox-only add-on.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Data Functions&lt;/span&gt;
+There are no data functions available through the IDE, but when running tests with a programming language and Selenium RC, anything is possible. Well, anything that can be done with the programming language.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Documentation&lt;/span&gt;
+Selenium’s documentation from their website is excellent. They provide good basic tutorials for getting started and a comprehensive doc describing all available commands. There is an extensive user community providing support and user guides.
+
+The Javadoc is complete and included with the download of the RC.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;User Interface&lt;/span&gt;
+The UI for the Selenium IDE is decent. It is clear and easy to figure out.
+
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Bugs/Weirdness&lt;/span&gt;
+&lt;ul&gt;
+	&lt;li&gt;Tests can only be run on sites in one domain. If you can get to another domain by clicking, that will work, but you cannot directly open a page in another domain.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Twitter: Getting started tips</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-07-20T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/07/20/twitter-getting-started-tips</id>
+    <content type="html">I think I have procrastinated long enough in trying out the whole Twitter phenomenon, so I'm giving it a try. It's been all over the news lately, apparently receiving &lt;a href=&quot;http://www.techcrunch.com/2009/07/20/media-loves-twitter-this-much-48-million-a-month-at-least/&quot;&gt;$48 million&lt;/a&gt; worth of free publicity in the last month. So far, here are my impressions
+&lt;ul&gt;
+	&lt;li&gt;It's super easy to use, and really easy to get set up with an account. I love the fact that your entire life must be reduced to a 160-character bio.&lt;/li&gt;
+	&lt;li&gt;A Twitter client is the way to go. I haven't settled on any one particular client yet, but I can tell that it is a much easier way to use Twitter than through the web interface. So far I've used &lt;a href=&quot;http://seesmic.com/&quot;&gt;Seesmic Desktop&lt;/a&gt;, &lt;a href=&quot;http://tweetdeck.com/beta/&quot;&gt;TweetDeck&lt;/a&gt;, and &lt;a href=&quot;http://www.atebits.com/tweetie-mac/&quot;&gt;Tweetie&lt;/a&gt; (Mac only).&lt;/li&gt;
+	&lt;li&gt;Spammers are everywhere, so don't automatically following everyone who follows you. My first follower was some &quot;girl&quot; from a dating site of some kind. Check out a person's page before you follow them. It is way to easy to fill up your homepage with a bunch of updates you don't actually care about.&lt;/li&gt;
+	&lt;li&gt;Don't obsess over getting people to follow you. All you can do is post about what you are interested in, and hope that others are interested. &quot;If you build it, [they] will come.&quot;&lt;/li&gt;
+	&lt;li&gt;Something I learned from using Facebook: Don't use Twitter to update your facebook status more than about 2x per day. You'll start to flood people's newsfeeds and that's just annoying. Twitter is supposed to be updated that frequently. Facebook really isn't.&lt;/li&gt;
+&lt;/ul&gt;
+So, I've only been on for a few days, but those are my tidbits of wisdom for anyone looking to start along the Twitter path.
+</content>
+  </entry>
+  
+  <entry>
+    <title>Free Pandora Desktop with Mozilla Prism</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-06-17T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/06/17/free-pandora-desktop-with-mozilla-prism</id>
+    <content type="html">So, I would say I'm kind of obsessive about which programs I keep running on my computer. When I started using &lt;a href=&quot;http://www.pandora.com/&quot;&gt;Pandora Radio&lt;/a&gt; at work last week, I got kinda frustrated that I always had to keep one window of Firefox open. Always. I would often accidentally close the window just because that's what I do.
+
+Naturally, the first thing I did was look for a Pandora desktop application. I'm not fortunate enough to have an iPhone or fancy smartphone that has a Pandora application I can run. Pandora has a desktop application, but it is only available for $36/year with their &lt;a href=&quot;http://pandora.com/pandora_one&quot;&gt;Pandora One&lt;/a&gt; service. I considered it, but I don't know if I'll use the service after this summer, so I wasn't ready to shell out money for it.&lt;!--more--&gt;
+
+Then I discovered &lt;a href=&quot;http://labs.mozilla.com/projects/prism/&quot;&gt;Mozilla Prism&lt;/a&gt;. Prism is a Firefox add-on that allows you to take any web application (or any website, really) and kind of convert it into a desktop application. You can create a shortcut for the start menu or desktop, and even minimize the window to the Windows system tray (my favorite feature).
+
+So here's how you do it:
+&lt;ol&gt;
+	&lt;li&gt;Download the Firefox add-on from the &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/6665&quot;&gt;Mozilla website&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Go to the home page of your favorite web application (e.g., Pandora.com)&lt;/li&gt;
+	&lt;li&gt;Under Tools, select &quot;Convert this page to an application&lt;/li&gt;
+	&lt;li&gt;Select the options you want, and there you have it.&lt;/li&gt;
+&lt;/ol&gt;
+I've only been using it for a day now, but it's been great. I can minimize it to the system tray and not have a single window of Firefox showing in my taskbar. For a computer neat freak like me, it's amazing.
+
+----
+Update (6/28/09)!
+
+I have since discovered a few simpler options for my problem. First I found &lt;a href=&quot;http://getopenpandora.appspot.com/&quot;&gt;Open Pandora&lt;/a&gt;, which is an open source desktop solution doing the exact same thing I did with Prism. Also, I am running Windows 7, and I found out that Pandora offers a free &lt;a href=&quot;http://www.pandora.com/on-windowsgadget&quot;&gt;Flash sidebar gadget&lt;/a&gt;.
+
+Of the three I definitely prefer the sidebar gadget. You have to be running the 32-bit sidebar since Flash isn't available in 64-bit yet, but that's a quick fix (if it's a problem at all. &lt;a href=&quot;http://www.bgreco.net/gadgets/pandora/64.php&quot;&gt;Here&lt;/a&gt;'s one way to do it for you Vista-ites.). Between Open Pandora &amp;amp; Prism, there really isn't much of a difference. Open Pandora is easier since you just have to download one application and you've got it, but Prism is cooler because it can also be used for other things. YMMV
+</content>
+  </entry>
+  
+  <entry>
+    <title>First Python Program - Wake on Wan</title>
+    <link href="http://www.schuetzler.net"/>
+    <updated>2009-06-17T00:00:00-07:00</updated>
+    <id>http://codeography.com/2009/06/17/first-python-program-wake-on-wan</id>
+    <content type="html">So, I decided to start learning Python because I feel the need to get better at programming and I was kinda tired of Java's bulkiness, especially when writing simple things. For example, I decided that I wanted to write a script to wake my home computer from the Internet. There are a bunch of programs out there for Windows, but I couldn't find anything good for Mac. I also don't really like the idea of using a web interface. So, I learned Python and built this:&lt;!--more--&gt;
+
+&lt;code&gt;#!/usr/bin/python
+# A Wake on LAN program that allows you to send magic packets over the Internet
+import socket, struct
+class Waker():
+def makeMagicPacket(self, macAddress):
+# Take the entered MAC address and format it to be sent via socket
+splitMac = str.split(macAddress,':')&lt;/code&gt;
+
+&lt;code&gt;# Pack together the sections of the MAC address as binary hex
+hexMac = struct.pack('BBBBBB', int(splitMac[0], 16),
+int(splitMac[1], 16),
+int(splitMac[2], 16),
+int(splitMac[3], 16),
+int(splitMac[4], 16),
+int(splitMac[5], 16))
+
+self.packet = '\xff' * 6 + macAddress * 16 #create the magic packet from MAC address
+
+def sendPacket(self, packet, destIP, destPort = 7):
+# Create the socket connection and send the packet
+s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.sendto(packet,(destIP,destPort))
+s.close()
+
+def wake(self, macAddress, destIP, destPort=7):
+self.makeMagicPacket(macAddress)
+self.sendPacket(self.packet, destIP, destPort)
+print 'Packet successfully sent to', macAddress
+
+if __name__ == '__main__':
+#This is all the information that needs to be changed to make this work for you
+mac = '00:11:22:33:44:55'
+ip = 'example.com' #The IP address where the packet should be sent
+port = 7 #The port the packet will be sent on
+
+&lt;/code&gt;
+
+&lt;code&gt;wol = Waker()
+wol.makeMagicPacket(mac)
+wol.sendPacket(wol.packet, ip, port)
+print 'Packet successfully sent to', mac&lt;/code&gt;
+
+Magically, it works! I know it's nothing too special, but I felt cool. If you don't want to copy and paste, I've uploaded the file &lt;a href=&quot;http://tech.theschuetzlers.com/wp-content/uploads/2009/06/waker.txt&quot;&gt;here&lt;/a&gt;, and you can just download it and change the extension to .py.
+</content>
+  </entry>
+  
+</feed>

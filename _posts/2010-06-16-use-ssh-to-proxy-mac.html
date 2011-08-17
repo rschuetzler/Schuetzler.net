@@ -1,0 +1,48 @@
+--- 
+layout: post
+title: How to use SSH to proxy on a Mac
+published: true
+meta: 
+  _edit_last: "2"
+  _wp_old_slug: how-to-use-ssh-to-proxy-on-a-mac
+tags: 
+- How to
+- proxy
+- ssh
+type: post
+status: publish
+---
+Worried that network monitoring at school or work is going to reveal passwords? How much to you trust the wireless Internet at the airport. If the network is unencrypted (and possibly even if it is), anyone could be watching your Internet browsing and maybe pick up a password or two. The following instructions will help you set use SSH to provide some more security.<!--more-->
+<ol>
+	<li>Open up Terminal</li>
+	<li>Type "ssh -D [port number] example.com" WHERE [port number] is replaced with a port and example.com is replaced with the domain of your SSH server. For example, if my ssh server were located at ssh.example.com, I would type: ssh -D 8081 ssh.example.com</li>
+	<li>Log in to the SSH server. Enter whatever username and password are required.</li>
+</ol>
+Now that your SSH connection is set up, I will give instructions for how to set this up in Firefox 3.6 and Google Chrome.
+
+<strong>If you are using Firefox:</strong>
+<ol>
+	<li>Open the Preferences menu (on a Mac, this is under the Firefox menu item).</li>
+	<li>Click "Advanced"</li>
+	<li>Click "Network"</li>
+	<li>Under "Connection" click "Settings"</li>
+	<li>Select Manual proxy configuration</li>
+	<li>Fill in SOCKS Host as 127.0.0.1 with Port set to 8081 (or whatever port you chose above).</li>
+	<li>Click OK and close the preferences dialog.</li>
+</ol>
+You should now be good to go. All of your web browsing (in Firefox) will pass through the secure tunnel between you and the SSH server.
+
+<strong>If you are using Google Chrome:</strong>
+
+Google Chrome is an excellent browser, but unfortunately you cannot configure a proxy server in the same way as Firefox. The settings do not exist. Fortunately developer Mhd Hejazi has created Proxy Switchy!, a Chrome extension that allows easy access to changing proxy settings.
+<ol>
+	<li>Download and install <a href="https://chrome.google.com/extensions/detail/caehdcpeofiiigpdhbabniblemipncjj">Proxy Switchy!</a> from the Chrome extensions website.</li>
+	<li>As soon as Proxy Switchy installs, it will pop up with a window where you can fill in your proxy server information</li>
+	<li>Name the profile whatever you like. We'll call it "Home Proxy" just for fun.</li>
+	<li>Leave all spaces blank except SOCKS Host and Port. Enter 127.0.0.1 for the host and 8081 (or whatever you chose above) for the port.</li>
+	<li>I select SOCKS v5 in the radio button below. If that doesn't work for you, try SOCKS v4.</li>
+	<li>Click Save</li>
+	<li>Now all you have to do to enable the proxy is click the little globe icon next to the address bar and select "Home Proxy." To return to the unproxied Internet simply select Direct Connection.</li>
+	<li>To quickly toggle back and forth between proxy enabled and disabled, you can change the "General" settings to enable quick switch and select Home Proxy for Profile 2 on the binary switch. Save your settings, and then just clicking the globe icon will toggle between your two connections.</li>
+</ol>
+One thing you'll need to know about the proxy: It does not provide a completely encrypted Internet connection. It will only provide an encrypted connection between you and your SSH proxy server. If someone is monitoring the traffic between your SSH server and the sites you visit, this will not help. Using SSH to proxy essentially provides you the same security of browsing the Internet from your SSH server, whatever that means for you.

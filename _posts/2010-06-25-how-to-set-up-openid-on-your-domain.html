@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: How to set up OpenID on your domain
+published: true
+meta: 
+  _edit_last: "1"
+  _wp_old_slug: ""
+tags: 
+- How to
+- openid
+type: post
+status: publish
+---
+<p style="text-align: left;">I admit, I mostly stole this post from <a href="http://smarterware.org/6286/how-to-set-up-openid-on-your-own-domain">here</a>, but I feel it is valuable enough that I need to repost it.</p>
+Adding OpenID to your domain is seriously a piece of cake. <!--more-->For example, I own www.schuetzler.net (this site). By adding the following lines to the &lt;head&gt; of your homepage, you can use Google's OpenID, connected to your Google Account, to login to any website that allows OpenID. [Note: the second href= is your Google Profile URL. If you haven't set up a Google Profile, you can do so <a href="http://www.google.com/profiles">here</a>.
+<pre style="border: 1px solid black; width: 500px; overflow-x: auto;">&lt;link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" /&gt;
+&lt;link rel="openid2.local_id" href="http://www.google.com/profiles/101917908304099087510" /&gt;</pre>
+That's seriously all you need to do. Once that's set up, you can log into any site that accepts OpenID (including this one) by entering your domain for the OpenID.

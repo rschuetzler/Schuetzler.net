@@ -1,0 +1,82 @@
+--- 
+layout: post
+title: "QA Tool Review: Selenium"
+published: true
+meta: 
+  _edit_last: "1"
+  blogger_author: Ryanhttp://www.blogger.com/profile/13005743548475422193noreply@blogger.com
+  _wp_old_slug: qa-tool-review-selenium
+  blogger_blog: tech.theschuetzlers.com
+  blogger_permalink: /2009/08/qa-tool-review-selenium.html
+tags: 
+- QA
+- Review
+- selenium
+- testing
+type: post
+status: publish
+---
+This will be the first in a series of reviews of various software testing tools. These were done over the past few weeks and cover the tool's usage from a new QA tester's perspective.
+<div style="text-align: center;"><span style="font-size: 180%;">Selenium 1.0.1 Evaluation</span></div>
+<span style="font-weight: bold;">Description</span>
+Selenium is a functional testing tool designed to automate tests on web applications. Tests can be recorded or created using the Selenium IDE or using Selenium RC. With Selenium RC, tests can be written in Java, C#, Perl, PHP, Python, and Ruby. Selenium IDE is available from either the <a href="https://addons.mozilla.org/en-US/firefox/addon/2079">Firefox add-ons</a> page or the <a href="http://seleniumhq.org/download/">Selenium homepage</a>, though I recommend the Selenium page because the Firefox add-ons version is sometimes out-of-date. Selenium RC is only available from the Selenium <a href="http://seleniumhq.org/download/">downloads</a> page.
+
+<span style="font-weight: bold;">Pros</span>
+<ul>
+	<li>IDE allows easy recording and playback of tests, plus translation into other programming languages.</li>
+	<li>Tests can be played in any browser<!--more--></li>
+</ul>
+<span style="font-weight: bold;">Cons</span>
+<ul>
+	<li>IDE only available for Firefox.</li>
+	<li>IDE not perfect at capturing interaction with a web application.</li>
+</ul>
+<span style="font-weight: bold;">Pricing</span>
+Free, free, and free. Also, open source. Selenium server is developed in Java.
+<div style="text-align: center;"><span style="font-weight: bold; font-size: 130%;">Ease of Use</span></div>
+<span style="font-weight: bold;">Ease of Installation</span>
+Selenium IDE is available as a Firefox extension. It can be installed either from the Mozilla Add-ons page or through the Selenium website. Often the Mozilla page does not have the latest version, so it is probably best to download from the Selenium homepage. As soon as the IDE is installed you can begin recording and playing back tests. For basic tests, you may not need anything more than the IDE. Tests can be recorded and run directly from there and the report is straightforward.<!--more-->
+
+Selenium RC is slightly more complicated because you have to use a programming language to run tests. It is still a pretty simple process to get running. You can use any testing framework and use the API to perform the tests and drive the server. This gets even easier if you use the IDE to record the test and translate it to the language. Then it’s a simple matter of tweaking the test to work in your chosen framework. By default the tests can be recorded and exported to Java for JUnit.
+
+<span style="font-weight: bold;">Setting up a Test</span>
+Setting up a test is very easy. The IDE makes everything very simple. Most functional tests can be created by recording your browser actions. After you’ve got all the actions recorded, you can easily add assertions to verify that things are showing up like they should.
+
+Once a test is set up in the IDE, it can be translated into a programming language and run using that language.
+
+<span style="font-weight: bold;">Running a Test</span>
+Running a test is a piece of cake in the IDE and the RC. Once you’ve got it set up you just run your test and the reports are generated. Bam!
+
+You can also organize tests into Test Suites to be run together. This allows you to separate different tests for different parts of functionality. These suites can be run directly from the IDE.
+
+<span style="font-weight: bold;">Technical Knowledge Needed</span>
+To create tests using the IDE, very little technical knowledge or ability is needed. To create the tests in a programming language, some experience with a testing framework is very helpful.
+<div style="text-align: center; font-weight: bold;"><span style="font-size: 130%;">Functionality
+</span></div>
+<span style="font-weight: bold;">Recording a test</span>
+Recording through Selenium IDE is a piece of cake. It doesn’t capture everything perfectly (actions like pressing the browser’s back button aren’t recognized, but can be coded in), but correcting/tweaking tests to meet needs is as easy as inserting a new command and filling in the options.
+
+<span style="font-weight: bold;">Scripting</span>
+Using the Selenium RC server, you can write tests in Java, C#, Perl, PHP, Python, and Ruby. Using these languages you can add your own custom assertions and tests to validate your application.
+
+<span style="font-weight: bold;">Reporting</span>
+The reports generated within Selenium IDE show reports of how many tests were run and how many failed. In addition, they show which step of the test failed. When run in Java, they can be run using any testing framework, including JUnit and TestNG. The reports generated will be those created by the testing framework used.
+
+<span style="font-weight: bold;">Browser Support</span>
+Selenium RC supports IE, Firefox, Google Chrome, and supposedly Opera. I couldn’t get Opera to work, but I didn’t spend very much time on it. Selenium IDE is a Firefox-only add-on.
+
+<span style="font-weight: bold;">Data Functions</span>
+There are no data functions available through the IDE, but when running tests with a programming language and Selenium RC, anything is possible. Well, anything that can be done with the programming language.
+
+<span style="font-weight: bold;">Documentation</span>
+Selenium’s documentation from their website is excellent. They provide good basic tutorials for getting started and a comprehensive doc describing all available commands. There is an extensive user community providing support and user guides.
+
+The Javadoc is complete and included with the download of the RC.
+
+<span style="font-weight: bold;">User Interface</span>
+The UI for the Selenium IDE is decent. It is clear and easy to figure out.
+
+<span style="font-weight: bold;">Bugs/Weirdness</span>
+<ul>
+	<li>Tests can only be run on sites in one domain. If you can get to another domain by clicking, that will work, but you cannot directly open a page in another domain.</li>
+</ul>

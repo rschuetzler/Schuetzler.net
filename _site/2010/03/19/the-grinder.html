@@ -1,0 +1,166 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>QA Tool Review: The Grinder</title>
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+	<div id="container">        
+		<div id="title">		
+			<span id="title_string"><a href="/">Ryan Schuetzler</a></span>
+			&nbsp;&nbsp;&nbsp; <span id="nav"><a href="/">Home</a></span><br/> 
+		</div> 
+		<div id="post">  
+			<div class="page_title">QA Tool Review: The Grinder</div>
+		    <h1 style="text-align: center;">Description</h1>
+The Grinder is a Java<sup>TM</sup> load testing framework that makes it easy to run a distributed test using many load injector machines. It is freely available under a BSD-style open-source <a href="http://grinder.sourceforge.net/license.html">license</a>. Below is a list of some if its key features.
+<ul>
+	<li><strong>Generic      Approach</strong> Load test anything that has a Java API. This includes      common cases such as HTTP web servers, SOAP and REST web services, and      application servers (CORBA, RMI, JMS, EJBs), as well as custom protocols.</li>
+	<li><strong>Flexible      Scripting</strong> Tests are written in the powerful Jython scripting      language.</li>
+	<li><strong>Distributed      Framework</strong> A graphical console allows multiple load injectors to      be monitored and controlled, and provides centralised script editing and      distribution.</li>
+	<li><strong>Mature HTTP Support</strong> Automatic management of client connections and      cookies. SSL. Proxy aware. Connection throttling. Sophisticated record and      replay of the interaction between a browser and a web site.</li>
+</ul>
+<h1 style="text-align: center;">Overview</h1>
+<h2>Pros</h2>
+<ul>
+	<li>Jython scripting makes tests very customizable</li>
+</ul>
+<h2>Cons</h2>
+<ul>
+	<li>Scripts can be complicated to write and maintain</li>
+	<li>Fairly solid technical ability required</li>
+	<li>Proxy recorder does not record HTTPS traffic</li>
+</ul>
+<h2>Pricing</h2>
+The Grinder is free and open-source. BSD-style open source license.
+
+<!--StartFragment-->
+<h1 style="text-align: center;"><a name="_Toc236459710"></a></h1>
+<h2>Ease of Installation</h2>
+Installing The Grinder is a pretty complicated process compared to the ease of other tools. First go to The Grinder’s <a href="http://sourceforge.net/projects/grinder/">SourceForge page</a> and download the current version. Then go to the “<a href="http://grinder.sourceforge.net/g3/getting-started.html#howtostart">Getting Started</a>” page and follow the instructions for creating the startup scripts and property files required. (Note: instead of creating a new grinder.properties file from scratch, I recommend copying the grinder.properties file from the examples directory. It gives a well commented base to start from.)<!--more-->
+<strong> </strong>
+
+Once you’ve got all the scripts created, test it out by running startGrinderConsole.cmd and startGrinderAgent.cmd to make sure that the Grinder Agent properly connects to the Console to receive commands. If the “Start worker processes” and “Reset worker processes” buttons are enabled, then the communication is successful and you will be able to run tests.
+<h2>Setting up a Test</h2>
+The best way to set up a Grinder test is first to record a script, then adjust it if necessary. First start up the proxy on your computer by running startGrinderProxy.cmd (you should have created this file during the installation). Tell your favorite web browser to direct traffic to localhost:8001 (unless you changed the proxy port settings). Unless you changed the commands in startGrinderProxy.cmd, the proxy will create a file called “grinder.py”. When you’re done recording your actions, stop the proxy and change your browser settings back to normal. You can open up the newly created Jython script and edit it if you want, or you can run it as is.<strong> </strong>
+
+Next you have to change your grinder.properties file to determine how many worker processes and threads/process you want to run. Set grinder.processes and grinder.threads to dictate how many processes you want and how many threads per process. Leave grinder.runs at 0 as long as you will be using the console. Be sure to change grinder.script to point to the script file you want to run. Once you have that set up, you are ready to run the test.
+<h2>Running a Test</h2>
+Once the test script has been recorded it is easy to run. Just modify the grinder.script property in grinder.properties to point to the correct *.py file. Then start the Grinder Console and an Agent process. Then click the “start the worker processes” button and your test will start running. When you want to stop click “stop collecting statistics” and then “Reset the worker processes.” That’s it.<strong> </strong>
+
+After the test runs, if you decide everything went well enough that you want to save the results, click “File” à “Save results…” to save the tab-delimited results table. By default it is saved as a .data file. You’ll probably need to associate Excel with that kind of file, unless you have another preferred tab-delimited file reader.
+<h2>Technical Knowledge Needed</h2>
+Just to get the program set up doesn’t require a whole lot of technical ability, just the ability to follow instructions. The creation of a script using the proxy is also very simple. However, if you want to start creating your scripts from scratch or editing the recorded script, then you’re going to need some technical prowess.<strong> </strong>
+<h2>Platforms</h2>
+The Grinder is a Java application, so it will run anywhere Java runs. The Grinder 3 requires Java 1.4 or greater.<strong> </strong>
+<ul>
+	<li>Windows</li>
+	<li>Mac</li>
+	<li>Linux</li>
+</ul>
+<!--StartFragment-->
+<h1 style="text-align: center;"><a name="_Toc236459716"></a></h1>
+<h2>Recording a test</h2>
+The Grinder provides a proxy tool that can be used to record tests. The proxy is used to create a Grinder script that can then be run from an agent. The proxy records every request that is sent out, and includes a timer to time the delays between requests. This is great for accurately simulating a user’s interaction with the system.<strong> </strong>
+<h2>Scripting</h2>
+The creation of tests is done entirely in Jython, the JVM implementation of the Python programming language. The recorder creates a Jython script that can be modified to fit exactly what you want. You can also create scripts from scratch, but the recommended method is to start from a recorded script.<strong> </strong>
+<h2>Reporting</h2>
+The built-in reporting consists of a scrolling graph of the 25 most recent Tests per Second (TPS) values for each test being run. There is also a table of data for each test. This is the same data that is available to be saved as a tab-delimited results file. The data reported is listed below:<strong> </strong>
+<ul>
+	<li>Test #</li>
+	<li>Description</li>
+	<li>Successful tests</li>
+	<li>Errors</li>
+	<li>Mean time</li>
+	<li>Mean time Standard deviation</li>
+	<li>TPS (tests per second)</li>
+	<li>Peak TPS</li>
+	<li>Mean response length</li>
+	<li>Response bytes per second</li>
+	<li>Response errors</li>
+	<li>Mean time to resolve host</li>
+	<li>Mean time to establish connection</li>
+	<li>Mean time to first byte</li>
+</ul>
+<h3>Trend Reporting</h3>
+The Grinder shows a graph during the test run that shows the tests per second for each of the tests being run for the past 10 or so sampling periods. That is the extent of trend reporting. All other numbers are reported in aggregate for the entire test run. The only numbers available in the CSV report are aggregate.
+<h3>Integration</h3>
+The Grinder exports all test results as a CSV file. That is the extent of its integration with anything.
+<h2>Data Functions</h2>
+Since the tests are all run using Jython, anything that can be done with Jython can be done in the tests.<strong> </strong>
+<h2>Load Generation / Distributed Load Generation</h2>
+Although I have not tried it, the ability to generate a distributed load seems to be very straightforward. All you need is to start an agent process on another computer and modify the grinder.consoleHost property in the grinder.properties file. That agent will then be ready to receive commands from the console and report back.<strong> </strong>
+
+Application performance when generating a load is very good. I was able to run 400 threads (20 worker processes with 20 threads each) without putting much of a dent in system performance at all. Starting up all the processes maxed out my CPU for about 15 seconds, but after all the processes were started the CPU ran at about 25% with spikes up to 50%. The 400 threads consumed about 512 MB of RAM.
+<h2>Documentation</h2>
+The Grinder’s documentation is good, but slightly fragmented. The <a href="http://grinder.sourceforge.net/g3/manual.html">User Guide</a> on the home page is fairly complete, but it is not well organized. The <a href="http://grinder.sourceforge.net/g3/script-javadoc/index.html">Javadoc</a> seems to be complete and well commented, although I didn’t use it very extensively.  There seems to be an adequate amount of community documentation and help as well. It is slightly more difficult to find because “Grinder” is a fairly common word, unlike WAPT or JMeter.<strong> </strong>
+<h2>User Interface</h2>
+The UI is a standard Java Swing interface. Fairly ugly, but it gets the job done.<strong></strong>
+<h2>Performance v. Stress Testing</h2>
+The Grinder allows for both steady-load performance testing and ramp-up stress testing. Several properties in the grinder.properties file allow you to set the preferences for stress or performance testing. Check out the page for the properties file (<a href="http://grinder.sourceforge.net/g3/properties.html">link</a>) to see all the settings you can adjust.<strong></strong>
+<h2>Bugs/Weirdness</h2>
+<ul>
+	<li>The Grinder is shipped with a version of Jython but does not package the Jython distribution of the standard Python library. If you want to use the standard library, or if you want to use a different version of Jython, obtain and install Jython and tell The Grinder where you installed it. [taken from the Grinder user manual]</li>
+</ul>
+<h1 style="text-align: center;">Project Info</h1>
+<h2>History</h2>
+The Grinder was originally developed for the book <em>Professional Java 2 Enterprise Edition with BEA WebLogic Server</em> by Paco Gómez and Peter Zadrozny. Philip Aston took ownership of the code, reworked it to create The Grinder 2, and shortly after began work on The Grinder 3. The Grinder 3 provides <a href="http://grinder.sourceforge.net/g3/whats-new.html">many new features</a>, the most significant of which is Jython scripting. Philip continues to enhance and maintain The Grinder.
+
+In 2003, Peter, Philip and Ted Osborne published the book <a href="http://grinder.sourceforge.net/links.html#book">J2EE Performance Testing</a> which makes extensive use of The Grinder 2.
+<h2>Frequency of Releases</h2>
+Limited information is available on the frequency of releases for The Grinder. There are three versions available on SourceForge that were released in 2008 &amp; 2009. The most recent version (3.2) was released in February, 2009.
+
+<a href="http://www.ohloh.net/p/9894">Ohloh.net</a> reports that The Grinder is experiencing decreasing year-over-year development activity.
+<h2>Active Forums</h2>
+<h3>Official Forums</h3>
+<ul>
+	<li>Support mailing list: <a href="mailto:Grinder-use@lists.sourceforge.net">Grinder-use@lists.sourceforge.net</a></li>
+	<li><a href="http://sourceforge.net/mailarchive/forum.php?forum_name=grinder-use">Mailing list searchable archive</a></li>
+</ul>
+<h3>Unofficial Forums</h3>
+<ul>
+	<li><a href="http://www.nabble.com/Grinder-f2584.html">Nabble Grinder Forum</a></li>
+</ul>
+<h2>Company URL</h2>
+<a href="http://grinder.sourceforge.net/">http://grinder.sourceforge.net/</a>
+
+<!--EndFragment--> <!--EndFragment-->
+
+		</div>
+	</div>
+
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+	    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	    var disqus_shortname = 'rschuetzler'; // required: replace example with your forum shortname
+
+	    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+	    // var disqus_identifier = 'unique_dynamic_id_1234';
+	     var disqus_url = 'http://www.schuetzler.net/2010/03/19/the-grinder.html';
+
+	    /* * * DON'T EDIT BELOW THIS LINE * * */
+	    (function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics end -->
+
+    </body>
+</html>
