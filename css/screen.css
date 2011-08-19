@@ -112,3 +112,7 @@ ul {
 #post sup {
 	font-size: 10px;
 }
+
+.posts {
+	font-family: "Lucida Console", Consolas, "Courier New", Courier, monospace
+}
