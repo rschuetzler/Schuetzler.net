@@ -69,9 +69,7 @@ a:active {color:#000000;}
 	line-height: 200%;
 }
 
-ul {
-	list-style-type: none;
-}
+
 
 .items {
 	font-family: 'Gentium Basic', Helvetica, Arial, sans-serif;
@@ -119,4 +117,8 @@ ul {
 
 .posts {
 	font-family: "Lucida Console", Consolas, "Courier New", Courier, monospace
+}
+
+.posts ul{
+	list-style-type: none;
 }
