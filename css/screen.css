@@ -16,6 +16,10 @@ body {
 	background: white;
 }
 
+h1 {
+	margin-top: 2em;
+}
+
 #container {
 	width: 45em;
 	margin-left: auto;
