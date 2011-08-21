@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>{{ page.title }}</title>
+		<meta name="description" content="{{ page.description }}" />
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+	<div id="container">        
+		<div id="title">		
+			<span id="title_string"><a href="/">Ryan Schuetzler</a></span>
+			&nbsp;&nbsp;&nbsp; <span id="nav"><a href="/">Home</a></span><br/> 
+		</div> 
+		<div id="post">  
+			<div class="page_title">{{ page.title }}</div>
+		    {{ content }}
+		</div>
+	</div>
+
+	
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics end -->
+
+    </body>
+</html>
