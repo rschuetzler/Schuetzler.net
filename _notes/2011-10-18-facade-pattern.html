@@ -1,0 +1,11 @@
+---
+layout: note
+title: The Facade Pattern
+description: The Facade design pattern allows you to create a static interface to a dynamic program
+published: true
+---
+<p>The Problem: Certain users of the site need access to only portions of the system's functionality. It's a huge system, and you don't want to force everyone to learn the entire system</p>
+<p>The Solution: The Facade design pattern</p>
+<p>Not much detail on this one in class today, but basically you create a new layer of abstraction to implement the functionality needed. Build a wrapper around the full system functionality to accomplish what is needed. The Facade pattern builds a new interface for the system so that changes in the internal workings of the system are not reflected in how outside users use the system. The Facade can be updated to work with the changes in the system, but the external interface of the Facade does not change.</p>
+<p>For example, let's imagine you employ the Google APIs or Youtube API in your website. These APIs are always subject to change at any time. To avoid forcing an entire team to learn the details of these APIs and their use, and having to relearn it every time the API changes, you can use the Facade pattern. One person on the team becomes a specialist in the API and is responsible for staying on top of changes. This person writes a Facade for the Google API that is then used by the rest of your team. If the Google API changes, only the Facade needs to be updated to allow the system to continue working.</p>
+<p>The Facade pattern also allows you to encapsulate the system to prevent abuse.</p>

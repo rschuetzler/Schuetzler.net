@@ -1,0 +1,50 @@
+---
+layout: note
+title: Writing grammars in Prolog
+description:
+published: true
+course: Computational Linguistics
+---
+<p>A review of context-free definite clause grammars:<br />
+<code>LHS --> RHS.</code><br />
+Where LHS = single non-terminal, and RHS is a sequence of zero or more terminal and non-terminals.</p>
+<p>In order to move from context-free to context-sensitive grammars, you must be allowed to have more than one non-terminal on the LHS. Prolog allows you to have extra arguments in the LHS to mimic the power of context-sensitive grammars with only one argument in LHS. These arguments can be used to enforce agreement.</p>
+<p>This will be an example of a grammar used to handle simple active and passive noun and verb phrase combinations. Remember to use [eg] to load the grammar into Prolog when you change it.</p>
+<code>
+s(s(NP,VP)) --> np(NP), vp(VP,Form).<br />
+vp(vp(V,NP),Form) --> v(V,Form), np(NP).<br />
+vp(vp(Aux,VP),_) --> aux(Aux), vp(VP,Form), {Form = ing}.<br />
+vp(vp(Aux,vp(V,np(trace)))) --> aux(Aux), v(V,Form), {Form = en}.<br />
+aux(aux(was)) -> [was].<br />
+np(np(Det,N)) --> det(Det), noun(N).<br />
+np(np(N)) --> proper_noun(N).<br />
+proper_noun(noun(john)) --> [john].<br />
+noun(noun(sandich)) --> [sandwich].<br />
+noun(noun(man)) --> [man].<br />
+noun(noun(ball)) --> [ball].<br />
+v(v(hit),_) --> [hit].<br />
+v(v(hitting),ing) --> [hitting].
+
+v(v(eat),root) --> [eat].<br />
+v(v(eats),s) --> [eats].
+v(v(ate),ed) --> [ate].
+v(v(eating),ing) --> [eating].
+v(v(eaten),en) --> [eaten].
+det(det(a)) --> [a].<br />
+det(det(the)) --> [the]<br />
+</code>
+
+<p>Holy crap, these things just keep going and going, don't they. Turns out that computational linguistics, and the English language, are pretty ridiculously complicated. So many conditions, exceptions, and just weirdness. Hopefully one day I'll understand how Prolog works with this stuff.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
