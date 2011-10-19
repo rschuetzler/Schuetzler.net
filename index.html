@@ -10,13 +10,6 @@ title: Ryan Schuetzler
         {% endfor %}
 		<li><a href="posts">More...</a></li>
     </ul>
-	<h1>Notes</h1>
-	<ul class="posts">
-        {% for note in site.notes limit:10 %}
-          <li><span>{{ note.date | date_to_string }}</span> &raquo; <a href="{{ note.url }}">{{ note.title }}</a></li>
-        {% endfor %}
-		<li><a href="posts">More...</a></li>
-    </ul>
 	<h1>Misc</h1>
 	<ul class="posts">
 		<li><a href="/files/Schuetzler_Vita.pdf">Vita [PDF]</a></li>
