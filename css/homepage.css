@@ -1,0 +1,24 @@
+body{
+	background-image:url('images/ricepaper.png');
+}
+div.container{
+	width:800px;
+	margin:auto auto;
+}
+.header{
+   	font-family: 'Russo One', sans-serif;
+	float:center;
+}
+h1.header{
+	font-size:250%;
+}
+h2.header{
+	font-size:150%;
+}
+.main{
+	font-family: 'Merriweather', serif;
+}
+h1.main{
+	font-size:150%;
+}
+
