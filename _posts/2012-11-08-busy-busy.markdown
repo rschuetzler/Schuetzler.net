@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Busy Busy
+published: true
+description: Just getting back to blogging. Life is good.
+---
+Life is busy. That is all.
+
+I am returning my blog here because I finally learned what Markdown means, so I can use it now with my sweet Jekyll blog. Wish I'd learned about that sooner.
