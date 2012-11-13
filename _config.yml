@@ -1,2 +1,1 @@
-permalink: /blog/:categories/:year/:month/:day/:title/
-lsi: true
+permalink: pretty
