@@ -8,6 +8,8 @@ published: true
 
 description: Something I learned while trying to be awesome
 
+categories: vim
+
 ---
 
 I recently read an article about [using Vim for writing
